@@ -101,9 +101,9 @@ La carte met aussi en parallèle les similarités entre les passages dans le des
 
 ## Références
 
-Notre référence principale est Serebii.net qui recense les apparitions de pokémon par zone dans l'ensemble des jeux vidéo. 
+Notre référence principale est Serebii.net qui recense les apparitions de pokémon par zone dans l'ensemble des jeux vidéo Pokémon. 
 
-Ce site permet aux joueurs de savoir où et comment capturer certains pokémons. De plus, le site offre la possibilité de connaître les équipes des dresseurs à affronter tout au long de l'aventure : https://www.serebii.net/pokearth/kanto/index.shtml
+Ce site permet aux joueurs de savoir où et comment capturer certains pokémon. De plus, le site offre la possibilité de connaître les équipes des dresseurs à affronter tout au long de l'aventure : https://www.serebii.net/pokearth/kanto/index.shtml
 
 Nous ne pouvons pas démontrer quelle source de données est utilisée pour ce site.
 
