@@ -2,6 +2,7 @@
 
 ## Contexte
 Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web :
+
 https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/
 
 Pour compléter nos données, nous utiliserons également ce site :
@@ -9,7 +10,8 @@ https://www.serebii.net/pokearth/kanto/index.shtml
 
 Serebii est spécialisé sur les données spécifique de chacun des pokémon (taille, poids, taux de capture, ...) contrairement à l'autre site qui se concentre essentiellement sur les rencontres des pokémon selon les zones du jeu.
 
-Les éléments graphiques des pokémon que nous utiliserons proviennent du site suivant qui fournit les sprites.
+Les éléments graphiques des pokémon que nous utiliserons proviennent du site suivant qui fournit les sprites. (Les éléments interactifs seront en SVG alors que les autres seront au format JPG/PNG) :
+
 https://www.spriters-resource.com/game_boy_advance/pokemonfireredleafgreen/sheet/3713/
 
 Concernant les "fun facts" du dessin animé, aucun site ne ressence les similarités avec le jeu vidéo. Nous allons alors visionner les 51 épisodes de la saison 1 (La ligue indigo) afin de pouvoir récupérer les moments intéressants que nous proposerons ensuite sur notre site. 
@@ -99,8 +101,9 @@ La carte met aussi en parallèle les similarités entre les passages dans le des
 
 ## Références
 
-Notre référence principale est Serebii.net qui recense les apparitions de pokémon par zone dans l'ensemble des jeux vidéo. Ce site permet aux joueurs de savoir où et comment capturer certains pokémons. De plus, le site offre la possibilité de connaître les équipes des dresseurs à affronter tout au long de l'aventure.
-https://www.serebii.net/pokearth/kanto/index.shtml
+Notre référence principale est Serebii.net qui recense les apparitions de pokémon par zone dans l'ensemble des jeux vidéo. 
+
+Ce site permet aux joueurs de savoir où et comment capturer certains pokémons. De plus, le site offre la possibilité de connaître les équipes des dresseurs à affronter tout au long de l'aventure : https://www.serebii.net/pokearth/kanto/index.shtml
 
 Nous ne pouvons pas démontrer quelle source de données est utilisée pour ce site.
 
