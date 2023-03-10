@@ -1,12 +1,9 @@
 # PokeMap
 
 ## Contexte
-Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web :
+Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web : https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/
 
-https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/
-
-Pour compléter nos données, nous utiliserons également ce site :
-https://www.serebii.net/pokearth/kanto/index.shtml
+Pour compléter nos données, nous utiliserons également ce site : https://www.serebii.net/pokearth/kanto/index.shtml
 
 Serebii est spécialisé sur les données spécifique de chacun des pokémon (taille, poids, taux de capture, ...) contrairement à l'autre site qui se concentre essentiellement sur les rencontres des pokémon selon les zones du jeu.
 
