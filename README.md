@@ -1,12 +1,9 @@
 # PokeMap
 
 ## Contexte
-Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web :
+Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web : https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/
 
-https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/
-
-Pour compléter nos données, nous utiliserons également ce site :
-https://www.serebii.net/pokearth/kanto/index.shtml
+Pour compléter nos données, nous utiliserons également ce site : https://www.serebii.net/pokearth/kanto/index.shtml
 
 Serebii est spécialisé sur les données spécifique de chacun des pokémon (taille, poids, taux de capture, ...) contrairement à l'autre site qui se concentre essentiellement sur les rencontres des pokémon selon les zones du jeu.
 
@@ -109,3 +106,13 @@ Nous ne pouvons pas démontrer quelle source de données est utilisée pour ce s
 
 Une autre référence est ce post de blog datant de 2004 qui recense l'ensemble des apparitions de pokémon dans la version Rouge Feu.
 https://gamefaqs.gamespot.com/gba/918915-pokemon-firered-version/faqs/32720
+
+## Wireframes
+<p align="center"><img src="/src/img/wireframes/01.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/02.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/03.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/04.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/05.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/06.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/07.jpg" width="800"></p>
+
