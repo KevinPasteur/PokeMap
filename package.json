@@ -1,0 +1,22 @@
+{
+  "name": "pokemap",
+  "version": "1.0.0",
+  "description": "Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web :",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinPasteur/PokeMap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinPasteur/PokeMap/issues"
+  },
+  "homepage": "https://github.com/KevinPasteur/PokeMap#readme"
+}

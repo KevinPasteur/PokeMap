@@ -1,0 +1,6 @@
+# Parcel related files
+dist/
+.cache/
+
+# Logs
+package-lock.json
