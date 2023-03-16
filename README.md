@@ -106,3 +106,13 @@ Nous ne pouvons pas démontrer quelle source de données est utilisée pour ce s
 
 Une autre référence est ce post de blog datant de 2004 qui recense l'ensemble des apparitions de pokémon dans la version Rouge Feu.
 https://gamefaqs.gamespot.com/gba/918915-pokemon-firered-version/faqs/32720
+
+## Wireframes
+<p align="center"><img src="/src/img/wireframes/01.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/02.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/03.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/04.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/05.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/06.jpg" width="800"></p>
+<p align="center"><img src="/src/img/wireframes/07.jpg" width="800"></p>
+
