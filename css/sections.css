@@ -132,6 +132,12 @@ section.route22 {
     width: 73vw;
 }
 
+section.route23 {
+    background-image: url("/img/maps/route23.png");
+    height: 295vw;
+}
+
+
 section.route24 {
     background-image: url("/img/maps/route24.png");
     height: 89vw;

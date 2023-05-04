@@ -887,7 +887,7 @@
                 },
                 {
                     "name" : "Psykokwak",
-                    "l  vl" : "15-35",
+                    "lvl" : "15-35",
                     "rate" : "5"                    
                 }
             ]
@@ -1147,6 +1147,67 @@
                     "name" : "Onix",
                     "lvl" : "13-17",
                     "rate" : "5"                    
+                },
+                {
+                    "name" : "Electhor",
+                    "lvl" : "50",
+                    "rate" : "One"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
                 }
             ]
         },
