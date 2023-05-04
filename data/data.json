@@ -1,0 +1,2136 @@
+{
+    "palletTown" : {
+        "starter" : {
+            "pokemon" : [
+                {
+                    "name" : "Salameche",
+                    "lvl" : "5",
+                    "rate" : "One"                    
+                },
+                {
+                    "name" : "Carapuce",
+                    "lvl" : "5",
+                    "rate" : "One"                    
+                },
+                {
+                    "name" : "Bulbizarre",
+                    "lvl" : "5",
+                    "rate" : "One"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-10",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Kokiyas",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "25-35",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "384px",
+        "positionY": "373px",
+        "positionX": "80px"
+    },
+    "route1" : {
+        "grass" : {
+            "pokemon" :[
+                {
+                    "name" : "Roucool",
+                    "lvl" : "2-5",
+                    "rate" : "50"
+    
+                },
+                {
+                    "name": "Rattata",
+                    "lvl" : "2-4",
+                    "rate" : "50"
+                }
+            ]
+            
+        },
+        "height" : "640px",
+        "width" : "384px",
+        "positionY": "330px",
+        "positionX": "80px"
+
+    },
+    "viridianCity" : {
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "20-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Tetarte",
+                    "lvl" : "20-30",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "15-35",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "582px",
+        "width" : "652px",
+        "positionY": "287px",
+        "positionX": "80px"
+    },
+    "route22" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Rattata",
+                    "lvl" : "2-5",
+                    "rate" : "45"                    
+                },
+                {
+                    "name" : "Ferosinge",
+                    "lvl" : "2-5",
+                    "rate" : "45"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "3-5",
+                    "rate" : "10"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "20-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Tetarte",
+                    "lvl" : "20-30",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "15-35",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "332px",
+        "width" : "772px"
+    },
+    "route23" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "32-34",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Rapasdepic",
+                    "lvl" : "40-44",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Abo",
+                    "lvl" : "32-34",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Arbok",
+                    "lvl" : "44",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Ferosinge",
+                    "lvl" : "32-34",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Colossinge",
+                    "lvl" : "42",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "20-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "15-35",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Tetarte",
+                    "lvl" : "20-30",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                }
+            ]
+        },
+        "height" : "2556px",
+        "width" : "384px"
+    },
+    "route2" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Roucool",
+                    "lvl" : "2-5",
+                    "rate" : "45"                    
+                },
+                {
+                    "name" : "Rattata",
+                    "lvl" : "2-5",
+                    "rate" : "45"                    
+                },
+                {
+                    "name" : "Chenipan",
+                    "lvl" : "4-5",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Aspicot",
+                    "lvl" : "4-5",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "cave" : {
+            "pokemon" : [
+                {
+                    "name" : "Taupiqueur",
+                    "lvl" : "15-22",
+                    "rate" : "95"                    
+                },
+                {
+                    "name" : "Triopikeur",
+                    "lvl" : "29-31",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "1248px",
+        "width" : "352px"
+    },
+    "viridianForest" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Chenipan",
+                    "lvl" : "3-5",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Aspicot",
+                    "lvl" : "3-5",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Chrysacier",
+                    "lvl" : "5",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Coconfort",
+                    "lvl" : "4-6",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Pikachu",
+                    "lvl" : "3-5",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "1104px",
+        "width" : "1056px"
+    },
+    "route3" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "6-8",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "6-7",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Rondoudou",
+                    "lvl" : "3-7",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Ferosinge",
+                    "lvl" : "7",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "NidoranMale",
+                    "lvl" : "6",
+                    "rate" : "1"                    
+                },
+                {
+                    "name" : "NidoranFemelle",
+                    "lvl" : "6-7",
+                    "rate" : "14"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "1392px"
+    },
+    "route4" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Rattata",
+                    "lvl" : "8-12",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "8-12",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Abo",
+                    "lvl" : "6-12",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Ferosinge",
+                    "lvl" : "10-12",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "cave" : {
+            "pokemon" : [
+                {
+                    "name" : "Nosferapti",
+                    "lvl" : "7-10",
+                    "rate" : "69"                    
+                },
+                {
+                    "name" : "Racaillou",
+                    "lvl" : "7-9",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Paras",
+                    "lvl" : "8",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Melofee",
+                    "lvl" : "8",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "288px",
+        "width" : "1649px"
+    },
+    "route24" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Chenipan",
+                    "lvl" : "7",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Aspicot",
+                    "lvl" : "7",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "11-13",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Abra",
+                    "lvl" : "8-12",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "12-14",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Coconfort",
+                    "lvl" : "8",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Chrysacier",
+                    "lvl" : "8",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "544px",
+        "width" : "272px"
+    },
+    "route25" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Chenipan",
+                    "lvl" : "8",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Aspicot",
+                    "lvl" : "8",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "11-13",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Abra",
+                    "lvl" : "9-13",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "12-14",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Coconfort",
+                    "lvl" : "9",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Chrysacier",
+                    "lvl" : "9",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "20-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Tetarte",
+                    "lvl" : "20-30",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "15-35",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "192px",
+        "width" : "993px"
+    },
+    "route5" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Roucool",
+                    "lvl" : "13-16",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Miaouss",
+                    "lvl" : "10-16",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "13-16",
+                    "rate" : "25"                    
+                }
+            ]
+        },
+        "height" : "559px",
+        "width" : "320px"
+
+    },
+    "route6" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Roucool",
+                    "lvl" : "13-16",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Miaouss",
+                    "lvl" : "10-16",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "13-16",
+                    "rate" : "25"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "20-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Tetarte",
+                    "lvl" : "20-30",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "l  vl" : "15-35",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "560px",
+        "width" : "352px"
+    },
+    "vermilionCity" : {
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "44"                    
+                },
+                {
+                    "name" : "Kokiyas",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "496px",
+        "width" : "576xp"
+    },
+    "route11" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "13-17",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Abo",
+                    "lvl" : "12-15",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Soporifik",
+                    "lvl" : "11-15",
+                    "rate" : "25"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-10",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "1152px"
+    },
+    "route9" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Rattata",
+                    "lvl" : "14-17",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "13-17",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Abo",
+                    "lvl" : "11-17",
+                    "rate" : "25"                    
+                }
+            ]
+        },
+        "height" : "288px",
+        "width" : "1040px"
+    },
+    "route10" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Voltorbe",
+                    "lvl" : "14-17",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "13-17",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Abo",
+                    "lvl" : "11-17",
+                    "rate" : "25"                    
+                }
+            ]
+        },
+        "cave" : {
+            "pokemon" : [
+                {
+                    "name" : "Nosferapti",
+                    "lvl" : "15-16",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Ferosinge",
+                    "lvl" : "16-17",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Machop",
+                    "lvl" : "16-17",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Racaillou",
+                    "lvl" : "15-17",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Onix",
+                    "lvl" : "13-17",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "powerPlant" : {
+            "pokemon" : [
+                {
+                    "name" : "Magneti",
+                    "lvl" : "22-25",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Voltorbe",
+                    "lvl" : "22-25",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Pikachu",
+                    "lvl" : "22-26",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Magneton",
+                    "lvl" : "31-34",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Elektek",
+                    "lvl" : "32-35",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Electrode",
+                    "lvl" : "34",
+                    "rate" : "Two"                    
+                },
+                {
+                    "name" : "Onix",
+                    "lvl" : "13-17",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "1280px",
+        "width" : "384px"
+    },
+    "route8" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Roucool",
+                    "lvl" : "18-20",
+                    "rate" : "30"                  
+                },
+                {
+                    "name" : "Miaouss",
+                    "lvl" : "18-20",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Abo",
+                    "lvl" : "17-19",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Caninos",
+                    "lvl" : "15-18",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "1152px"
+    },
+    "route7" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Roucool",
+                    "lvl" : "19-22",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Miaouss",
+                    "lvl" : "17-20",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "19-22",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Caninos",
+                    "lvl" : "18-20",
+                    "rate" : "10"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "384px"
+    },
+    "celadonCity" : {
+        "casino" : {
+            "pokemon" : [
+                {
+                    "name" : "Abra",
+                    "price" : "180 C"                  
+                },
+                {
+                    "name" : "Melofee",
+                    "price" : "500 C"                  
+                },
+                {
+                    "name" : "Minidraco",
+                    "price" : "2800 C"                  
+                },
+                {
+                    "name" : "Porygon",
+                    "price" : "9999 C"                  
+                },
+                {
+                    "name" : "Insecateur",
+                    "price" : "5500 C"                  
+                }
+            ]
+        },
+        "height" : "533px",
+        "width" : "800px"
+    },
+    "fuchsiaCity" : {
+        "safari" : {
+            "grass" : {
+                "pokemon" : [
+                    {
+                        "name" : "NidoranMale",
+                        "lvl" : "22",
+                        "rate" : "20"                    
+                    },
+                    {
+                        "name" : "Noeunoeuf",
+                        "lvl" : "25",
+                        "rate" : "10"                    
+                    },
+                    {
+                        "name" : "Doduo",
+                        "lvl" : "25",
+                        "rate" : "5"                    
+                    },
+                    {
+                        "name" : "Paras",
+                        "lvl" : "25",
+                        "rate" : "5"                    
+                    },
+                    {
+                        "name" : "Rhinocorne",
+                        "lvl" : "20-25",
+                        "rate" : "20"                    
+                    },
+                    {
+                        "name" : "Mimitoss",
+                        "lvl" : "22",
+                        "rate" : "15"                    
+                    },
+                    {
+                        "name" : "Nidorino",
+                        "lvl" : "31",
+                        "rate" : "10"                    
+                    },
+                    {
+                        "name" : "Nidorina",
+                        "lvl" : "31",
+                        "rate" : "5"                    
+                    },
+                    {
+                        "name" : "Parasect",
+                        "lvl" : "30",
+                        "rate" : "5"                    
+                    },
+                    {
+                        "name" : "Insecateur",
+                        "lvl" : "23",
+                        "rate" : "1"                    
+                    },
+                    {
+                        "name" : "Kangourex",
+                        "lvl" : "25",
+                        "rate" : "1"                    
+                    },
+                    {
+                        "name" : "Aeromite",
+                        "lvl" : "32",
+                        "rate" : "1"                    
+                    },
+                    {
+                        "name" : "Tauros",
+                        "lvl" : "25",
+                        "rate" : "1"                    
+                    },
+                    {
+                        "name" : "Leveinard",
+                        "lvl" : "23",
+                        "rate" : "1"                    
+                    }
+                ]
+            },
+            "surfing" : {
+                "pokemon" : [
+                    {
+                        "name" : "Psykokwak",
+                        "lvl" : "20-40",
+                        "rate" : "100"                    
+                    }
+                ]
+            },
+            "oldRod" : {
+                "pokemon" : [
+                    {
+                        "name" : "Magicarpe",
+                        "lvl" : "5",
+                        "rate" : "100"                    
+                    }
+                ]
+            },
+            "goodRod" : {
+                "pokemon" : [
+                    {
+                        "name" : "Poissirene",
+                        "lvl" : "5-15",
+                        "rate" : "60"                    
+                    },
+                    {
+                        "name" : "Ptitard",
+                        "lvl" : "5-15",
+                        "rate" : "20"                    
+                    },
+                    {
+                        "name" : "Magicarpe",
+                        "lvl" : "5-15",
+                        "rate" : "20"                    
+                    }
+                ]
+            },
+            "superRod" : {
+                "pokemon" : [
+                    {
+                        "name" : "Poissirene",
+                        "lvl" : "15-25",
+                        "rate" : "40"                    
+                    },
+                    {
+                        "name" : "Poissoroy",
+                        "lvl" : "20-30",
+                        "rate" : "40"                    
+                    },
+                    {
+                        "name" : "Minidraco",
+                        "lvl" : "15-25",
+                        "rate" : "15"                    
+                    },
+                    {
+                        "name" : "Psykokwak",
+                        "lvl" : "15-35",
+                        "rate" : "4"                    
+                    },
+                    {
+                        "name" : "Draco",
+                        "lvl" : "25-35",
+                        "rate" : "1"                    
+                    }
+                ]
+            }
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "20-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Ptitard",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Poissirene",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Poissoroy",
+                    "lvl" : "20-30",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "15-35",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "640px",
+        "width" : "768px"
+    },
+    "route12" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "22-26",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "23-27",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Mimitoss",
+                    "lvl" : "24-26",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Ortide",
+                    "lvl" : "28-30",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "special" : {
+            "pokemon" : [
+                {
+                    "name" : "Ronflex",
+                    "lvl" : "30",
+                    "rate" : "one"                    
+                }
+            ]
+        },
+        "height" : "1920px",
+        "width" : "384px"
+    },
+    "route13" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "22-26",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Mimitoss",
+                    "lvl" : "24-26",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "25-27",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Roucoups",
+                    "lvl" : "29",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Ortide",
+                    "lvl" : "28-30",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Metamorph",
+                    "lvl" : "25",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "1152px"
+    },
+    "route14" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "22-26",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Mimitoss",
+                    "lvl" : "24-26",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "27",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Roucoups",
+                    "lvl" : "29",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Ortide",
+                    "lvl" : "30",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Metamorph",
+                    "lvl" : "23-25",
+                    "rate" : "15"                    
+                }
+            ]
+        },
+        "height" : "960px",
+        "width" : "384px"
+    },
+    "route15" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Mystherbe",
+                    "lvl" : "22-26",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Mimitoss",
+                    "lvl" : "24-26",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Roucool",
+                    "lvl" : "25-27",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Roucoups",
+                    "lvl" : "29",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Ortide",
+                    "lvl" : "28-30",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Metamorph",
+                    "lvl" : "25",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "1152px"
+    },
+    "route16" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Doduo",
+                    "lvl" : "18-22",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Rattata",
+                    "lvl" : "18-22",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "20-22",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Rattatac",
+                    "lvl" : "23-25",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "special" : {
+            "pokemon" : [
+                {
+                    "name" : "Ronflex",
+                    "lvl" : "30",
+                    "rate" : "one"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "768px"
+    },
+    "route17" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Doduo",
+                    "lvl" : "24-28",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "20-22",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Rattatac",
+                    "lvl" : "25-29",
+                    "rate" : "25"                    
+                },
+                {
+                    "name" : "Rattata",
+                    "lvl" : "22",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Rapasdepic",
+                    "lvl" : "25-27",
+                    "rate" : "5"                    
+                }
+            ]
+        },
+        "height" : "2560px",
+        "width" : "384px"
+    },
+    "route18" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Doduo",
+                    "lvl" : "24-28",
+                    "rate" : "35"                    
+                },
+                {
+                    "name" : "Piafabec",
+                    "lvl" : "20-22",
+                    "rate" : "30"                    
+                },
+                {
+                    "name" : "Rattatac",
+                    "lvl" : "25-29",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Rattata",
+                    "lvl" : "22",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Rapasdepic",
+                    "lvl" : "25-29",
+                    "rate" : "15"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "960px"
+    },
+    "route19" : {
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "80"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "25-35",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "960px",
+        "width" : "384px"
+    },
+    "route20" : {
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "80"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "25-35",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "cave" : {
+            "pokemon" : [
+                {
+                    "name" : "Otaria",
+                    "lvl" : "30-34",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Nosferalto",
+                    "lvl" : "26-30",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "32",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Akwakwak",
+                    "lvl" : "32-34",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Lamantine",
+                    "lvl" : "34-36",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "25-30",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "10"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-35",
+                    "rate" : "5"                    
+                },
+                {
+                    "name" : "Artikodin",
+                    "lvl" : "50",
+                    "rate" : "One"                    
+                }
+            ]
+        },
+        "height" : "320px",
+        "width" : "1920px"
+    },
+    "cinnabarIsland" : {
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-10",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "15"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "25-35",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Kokiyas",
+                    "lvl" : "15-25",
+                    "rate" : "40"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "321px",
+        "width" : "385px"
+    },
+    "route21" : {
+        "grass" : {
+            "pokemon" : [
+                {
+                    "name" : "Saquedeneu",
+                    "lvl" : "17-28",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "80"                    
+                },
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "80"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "25-35",
+                    "rate" : "4"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
+                }
+            ]
+        },
+        "height" : "1600px",
+        "width" : "384px"
+    }
+}

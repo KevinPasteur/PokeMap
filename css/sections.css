@@ -1,0 +1,143 @@
+section {
+    display: none;
+}
+
+section.active {
+    display: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+}
+
+section.map {
+    background-image: url("/img/maps/map_kanto.jpg");
+}
+
+section.pokedex {
+    background-image: url("/img/pokedex/pokedex.png");
+}
+
+section.stats {
+    background-image: url("/img/stats/stats.png");
+}
+
+section.route1 {
+    background-image: url("/img/maps/route1.png");
+    height: 74vw;
+}
+
+section.route2 {
+    background-image: url("/img/maps/route2.png");
+    height: 157vw;
+}
+
+section.route3 {
+    background-image: url("/img/maps/route3.png");
+    width: 136vw;
+}
+
+section.route4 {
+    background-image: url("/img/maps/route4.png");
+    width: 179vw;
+}
+
+section.route5 {
+    background-image: url("/img/maps/route5.png");
+    height: 78vw;
+}
+
+section.route6 {
+    background-image: url("/img/maps/route6.png");
+    height: 71vw;
+}
+
+section.route7 {
+    background-image: url("/img/maps/route7.png");
+    height: 37vw;
+}
+
+section.route8 {
+    background-image: url("/img/maps/route8.png");
+    width: 113vw;
+}
+
+section.route9 {
+    background-image: url("/img/maps/route9.png");
+    width: 113vw;
+}
+
+section.route10 {
+    background-image: url("/img/maps/route10.png");
+    height: 148vw;
+}
+
+section.route11 {
+    background-image: url("/img/maps/route11.png");
+    width: 113vw;
+}
+
+section.route12 {
+    background-image: url("/img/maps/route12.png");
+    height: 222vw;
+}
+
+section.route13 {
+    background-image: url("/img/maps/route13.png");
+    width: 113vw;
+}
+
+section.route14 {
+    background-image: url("/img/maps/route14.png");
+    height: 111vw;
+}
+
+section.route15 {
+    background-image: url("/img/maps/route15.png");
+    width: 113vw;
+}
+
+section.route16 {
+    background-image: url("/img/maps/route16.png");
+    width: 75vw;
+}
+
+section.route17 {
+    background-image: url("/img/maps/route17.png");
+    height: 296vw;
+}
+
+section.route18 {
+    background-image: url("/img/maps/route18.png");
+    width: 94vw;
+}
+
+section.route19 {
+    background-image: url("/img/maps/route19.png");
+    height: 111vw;
+}
+
+section.route20 {
+    background-image: url("/img/maps/route20.png");
+    width: 188vw;
+}
+
+section.route21 {
+    background-image: url("/img/maps/route21.png");
+    height: 185vw;
+}
+
+section.route22 {
+    background-image: url("/img/maps/route22.png");
+    width: 73vw;
+}
+
+section.route24 {
+    background-image: url("/img/maps/route24.png");
+    height: 89vw;
+}
+
+section.route25 {
+    background-image: url("/img/maps/route25.png");
+    width: 162vw;
+}

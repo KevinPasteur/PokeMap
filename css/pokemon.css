@@ -1,0 +1,348 @@
+.pokemon-image {
+    position: absolute;
+    background-size: 20px 20px;
+    height: 200px;
+    width: 200px;
+    top: 165px;
+    left: 150px;
+}
+
+.pokemon-pagination {
+    position: absolute;
+    top: 305px;
+    left: 315px;
+}
+
+.pokemon-name {
+    position: absolute;
+    top: 123px;
+    left: 500px;
+    font-size: 3em;
+    color: white;
+}
+
+.pokemon-rate {
+    position: absolute;
+    top: 476px;
+    left: 135px;
+    font-size: 1.7em;
+    color: white;
+}
+
+.pokemon-lvl {
+    position: absolute;
+    top: 476px;
+    left: 490px;
+    font-size: 1.7em;
+    color: white;
+}
+
+
+.pokemon-position {
+    position: absolute;
+    top: 476px;
+    left: 610px;
+    font-size: 1.7em;
+    color: white;
+}
+
+.Abo {
+    background: url("/img/sprites/Abo.png") no-repeat no-repeat;
+}
+
+.Abra {
+    background: url("/img/sprites/Abra.png") no-repeat no-repeat;
+}
+
+.Aeormite {
+    background: url("/img/sprites/Aeromite.png") no-repeat no-repeat;
+}
+
+.Akwakwak {
+    background: url("/img/sprites/Akwakwak.png") no-repeat no-repeat;
+}
+
+.Arbok {
+    background: url("/img/sprites/Arbok.png") no-repeat no-repeat;
+}
+
+.Artikodin {
+    background: url("/img/sprites/Artikodin.png") no-repeat no-repeat;
+}
+
+.Aspicot {
+    background: url("/img/sprites/Aspicot.png") no-repeat no-repeat;
+}
+
+.Bulbizarre {
+    background: url("/img/sprites/Bulbizarre.png") no-repeat no-repeat;
+}
+
+.Caninos {
+    background: url("/img/sprites/Caninos.png") no-repeat no-repeat;
+}
+
+.Carapuce {
+    background: url("/img/sprites/Carapuce.png") no-repeat no-repeat;
+}
+
+.Chenipan {
+    background: url("/img/sprites/Chenipan.png") no-repeat no-repeat;
+}
+
+.Chrysacier {
+    background: url("/img/sprites/Chrysacier.png") no-repeat no-repeat;
+}
+
+.Coconfort {
+    background: url("/img/sprites/Coconfort.png") no-repeat no-repeat;
+}
+
+.Doduo {
+    background: url("/img/sprites/Doduo.png") no-repeat no-repeat;
+}
+
+.Draco {
+    background: url("/img/sprites/Draco.png") no-repeat no-repeat;
+}
+
+.Electhor {
+    background: url("/img/sprites/Electhor.png") no-repeat no-repeat;
+}
+
+.Electrode {
+    background: url("/img/sprites/Electrode.png") no-repeat no-repeat;
+}
+
+.Elektek {
+    background: url("/img/sprites/Elektek.png") no-repeat no-repeat;
+}
+
+.Ferosinge {
+    background: url("/img/sprites/Ferosinge.png") no-repeat no-repeat;
+}
+
+.Hypocean {
+    background: url("/img/sprites/Hypocean.png") no-repeat no-repeat;
+}
+
+.Hypotrempe {
+    background: url("/img/sprites/Hypotrempe.png") no-repeat no-repeat;
+}
+
+.Insecateur {
+    background: url("/img/sprites/Insecateur.png") no-repeat no-repeat;
+}
+
+.Kangourex {
+    background: url("/img/sprites/Kangourex.png") no-repeat no-repeat;
+}
+
+.Kokiyas {
+    background: url("/img/sprites/Kokiyas.png") no-repeat no-repeat;
+}
+
+.Krabby {
+    background: url("/img/sprites/Krabby.png") no-repeat no-repeat;
+}
+
+.Lamantine {
+    background: url("/img/sprites/Lamantine.png") no-repeat no-repeat;
+}
+
+.Leveinard {
+    background: url("/img/sprites/Leveinard.png") no-repeat no-repeat;
+}
+
+.Leviator {
+    background: url("/img/sprites/Leviator.png") no-repeat no-repeat;
+}
+
+.Machop {
+    background: url("/img/sprites/Machop.png") no-repeat no-repeat;
+}
+
+.Magicarpe {
+    background: url("/img/sprites/Magicarpe.png") no-repeat no-repeat;
+}
+
+.Magneti {
+    background: url("/img/sprites/Magneti.png") no-repeat no-repeat;
+}
+
+.Magneton {
+    background: url("/img/sprites/Magneton.png") no-repeat no-repeat;
+}
+
+.Melofee {
+    background: url("/img/sprites/Melofee.png") no-repeat no-repeat;
+}
+
+.Metamorph {
+    background: url("/img/sprites/Metamorph.png") no-repeat no-repeat;
+}
+
+.Miaouss {
+    background: url("/img/sprites/Miaouss.png") no-repeat no-repeat;
+}
+
+.Mimitoss {
+    background: url("/img/sprites/Mimitoss.png") no-repeat no-repeat;
+}
+
+.Minidraco {
+    background: url("/img/sprites/Minidraco.png") no-repeat no-repeat;
+}
+
+.Mystherbe {
+    background: url("/img/sprites/Mystherbe.png") no-repeat no-repeat;
+}
+
+.NidoranFemelle {
+    background: url("/img/sprites/NidoranFemelle.png") no-repeat no-repeat;
+}
+
+.NidoranMale {
+    background: url("/img/sprites/NidoranMale.png") no-repeat no-repeat;
+}
+
+.Nidorina {
+    background: url("/img/sprites/Nidorina.png") no-repeat no-repeat;
+}
+
+.Nidorino {
+    background: url("/img/sprites/Nidorino.png") no-repeat no-repeat;
+}
+
+.Noeunoeuf {
+    background: url("/img/sprites/Noeunoeuf.png") no-repeat no-repeat;
+}
+
+.Nosferalto {
+    background: url("/img/sprites/Nosferalto.png") no-repeat no-repeat;
+}
+
+.Nosferapti {
+    background: url("/img/sprites/Nosferapti.png") no-repeat no-repeat;
+}
+
+.Onyx {
+    background: url("/img/sprites/Onyx.png") no-repeat no-repeat;
+}
+
+.Ortide {
+    background: url("/img/sprites/Ortide.png") no-repeat no-repeat;
+}
+
+.Otaria {
+    background: url("/img/sprites/Otaria.png") no-repeat no-repeat;
+}
+
+.Paras {
+    background: url("/img/sprites/Paras.png") no-repeat no-repeat;
+}
+
+.Parasect {
+    background: url("/img/sprites/Parasect.png") no-repeat no-repeat;
+}
+
+.Piafabec {
+    background: url("/img/sprites/Piafabec.png") no-repeat no-repeat;
+}
+
+.Pikachu {
+    background: url("/img/sprites/Pikachu.png") no-repeat no-repeat;
+}
+
+.Poissirene {
+    background: url("/img/sprites/Poissirene.png") no-repeat no-repeat;
+}
+
+.Poissoroy {
+    background: url("/img/sprites/Poissoroy.png") no-repeat no-repeat;
+}
+
+.Porygon {
+    background: url("/img/sprites/Porygon.png") no-repeat no-repeat;
+}
+
+.Psykokwak {
+    background: url("/img/sprites/Psykokwak.png") no-repeat no-repeat;
+}
+
+.Ptitard {
+    background: url("/img/sprites/Ptitard.png") no-repeat no-repeat;
+}
+
+.Racaillou {
+    background: url("/img/sprites/Racaillou.png") no-repeat no-repeat;
+}
+
+.Rapasdepic {
+    background: url("/img/sprites/Rapasdepic.png") no-repeat no-repeat;
+}
+
+.Rattata {
+    background: url("/img/sprites/Rattata.png") no-repeat no-repeat;
+}
+
+.Rattatac {
+    background: url("/img/sprites/Rattatac.png") no-repeat no-repeat;
+}
+
+.Rhinocorne {
+    background: url("/img/sprites/Rhinocorne.png") no-repeat no-repeat;
+}
+
+.Rondoudou {
+    background: url("/img/sprites/Rondoudou.png") no-repeat no-repeat;
+}
+
+.Ronflex {
+    background: url("/img/sprites/Ronflex.png") no-repeat no-repeat;
+}
+
+.Roucool {
+    background: url("/img/sprites/Roucool.png") no-repeat no-repeat;
+}
+
+.Roucoups {
+    background: url("/img/sprites/Roucoups.png") no-repeat no-repeat;
+}
+
+.Salameche {
+    background: url("/img/sprites/Salameche.png") no-repeat no-repeat;
+}
+
+.Saquedeneu {
+    background: url("/img/sprites/Saquedeneu.png") no-repeat no-repeat;
+}
+
+.Soporifik {
+    background: url("/img/sprites/Soporifik.png") no-repeat no-repeat;
+}
+
+
+.Taupiqueur {
+    background: url("/img/sprites/Taupiqueur.png") no-repeat no-repeat;
+}
+
+.Tauros {
+    background: url("/img/sprites/Tauros.png") no-repeat no-repeat;
+}
+
+.Tentacool {
+    background: url("/img/sprites/Tentacool.png") no-repeat no-repeat;
+}
+
+.Tetarte {
+    background: url("/img/sprites/Tetarte.png") no-repeat no-repeat;
+}
+
+.Triopikeur {
+    background: url("/img/sprites/Triopikeur.png") no-repeat no-repeat;
+}
+
+.Voltorbe {
+    background: url("/img/sprites/Voltorbe.png") no-repeat no-repeat;
+}

@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
+    "start": "parcel index.html",
     "build": "parcel build"
   },
   "repository": {
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/KevinPasteur/PokeMap/issues"
   },
-  "homepage": "https://github.com/KevinPasteur/PokeMap#readme"
+  "homepage": "https://github.com/KevinPasteur/PokeMap#readme",
+  "dependencies": {
+    "config.json": "^0.0.4",
+    "d3": "^7.8.4",
+    "data": "^0.6.1"
+  }
 }

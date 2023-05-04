@@ -1,0 +1,112 @@
+@import url("./zones.css");
+@import url("./sections.css");
+@import url("./buttons.css");
+@import url("./pokemon.css");
+@import url("./funfacts.css");
+
+@font-face {
+    font-family: pokemonPixel;
+    src: url('../fonts/Pokemon-Pixel.woff') format('woff'),
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('../fonts/Pokemon-Pixel.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+:root {
+    --pixel-size: 2px;
+    --grid-cell: calc(var(--pixel-size) * 16);
+    --bg: gray;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: pokemonPixel;
+    font-size: 1.2em;
+}
+
+.camera {
+    width: 850px;
+    height: 600px;
+    overflow: hidden;
+    top: 152px;
+    left: 523px;
+    background: #61ddf7;
+    position: relative;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/img/gameboyAdvance.svg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.full-size {
+    height: 200vw;
+    max-height: 200vw;
+    width: 100vw;
+    max-width: 100vw;
+    position: relative;
+}
+
+.pokeball {
+    position: absolute;
+    background: url("/img/pokeball.svg") no-repeat no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+.pokeball:hover {
+    background: url("/img/pokeball-hover.svg") no-repeat no-repeat;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 100;
+    /* making the .tooltip span a container for the tooltip text */
+    border-bottom: 1px dashed #000;
+    /* little indicater to indicate it's hoverable */
+}
+
+.tooltip:before {
+    content: attr(data-text);
+    /* here's the magic */
+    position: absolute;
+
+    /* vertically center */
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* move to right */
+    left: 100%;
+    margin-left: 15px;
+    /* and add a small left margin */
+
+    /* basic styles */
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+
+    display: none;
+    /* hide by default */
+}
+
+.tooltip:hover:before {
+    display: block;
+}

@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>PokeMap - Version 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="bg">
+        <div id="test" class="btn"></div>
+        <div id="buttonParent">
+            <div id="btn-up" class="btn up"></div>
+            <div id="btn-down" class="btn down"></div>
+            <div id="btn-left" class="btn left"></div>
+            <div id="btn-right" class="btn right"></div>
+            <div id="btn-b" class="btn b"></div>
+            <div id="btn-funfact" class="btn funfact"></div>
+            <div id="btn-stats" class="btn stats"></div>
+            <div id="btn-power" class="btn power"></div>
+            <div id="led" class="btn led-on"></div>
+        </div>
+
+        <div class="camera">
+            <section class="funfact" style="top:0px; left:0px;">
+            </section>
+
+            <section class="stats" style="top:0px; left:0px;">
+            </section>
+
+            <section id="pokedex" class="pokedex" style="top:0px; left:0px;">
+                <div id="btn-pokedex-right" class="btn pokedex right"></div>
+                <div id="btn-pokedex-left" class="btn pokedex left"></div>
+                <div id="pokemon-image" class=""></div>
+                <div id="pokemon-name" class="pokemon-name"></div>
+                <div id="pokemon-lvl" class="pokemon-lvl"></div>
+                <div id="pokemon-rate" class="pokemon-rate"></div>
+                <div id="pokemon-position" class="pokemon-position"></div>
+                <div id="pokemon-pagination" class="pokemon-pagination"></div>
+            </section>
+
+            <section class="map active" style="top:0px; left:0px;">
+                <div id="zones">
+                    <div id="palletTown" data-text="Pallet Town" class="zones zone-palletTown tooltip"></div>
+                    <div id="viridianForest" data-text="Viridian Forest" class="zones zone-viridianForest tooltip">
+                    </div>
+                    <div id="viridianCity" data-text="Viridian City" class="zones zone-viridianCity tooltip"></div>
+                    <div id="vermilionCity" data-text="Vermilion City" class="zones zone-vermilionCity tooltip"></div>
+                    <div id="celadonCity" data-text="Celadon City" class="zones zone-celadonCity tooltip"></div>
+                    <div id="fuchsiaCity" data-text="Fuchsia City" class="zones zone-fuchsiaCity tooltip"></div>
+                    <div id="cinnabarIsland" data-text="Cinnabar Island" class="zones zone-cinnabarIsland tooltip">
+                    </div>
+                    <div id="route1" data-text="Route 1" class="zones zone-route1 tooltip"></div>
+                    <div id="route2" data-text="Route 2" class="zones zone-route2 tooltip"></div>
+                    <div id="route3" data-text="Route 3" class="zones zone-route3 tooltip"></div>
+                    <div id="route4" data-text="Route 4" class="zones zone-route4 tooltip"></div>
+                    <div id="route5" data-text="Route 5" class="zones zone-route5 tooltip"></div>
+                    <div id="route6" data-text="Route 6" class="zones zone-route6 tooltip"></div>
+                    <div id="route7" data-text="Route 7" class="zones zone-route7 tooltip"></div>
+                    <div id="route8" data-text="Route 8" class="zones zone-route8 tooltip"></div>
+                    <div id="route9" data-text="Route 9" class="zones zone-route9 tooltip"></div>
+                    <div id="route10" data-text="Route 10" class="zones zone-route10 tooltip"></div>
+                    <div id="route11" data-text="Route 11" class="zones zone-route11 tooltip"></div>
+                    <div id="route12" data-text="Route 12" class="zones zone-route12 tooltip"></div>
+                    <div id="route13" data-text="Route 13" class="zones zone-route13 tooltip"></div>
+                    <div id="route14" data-text="Route 14" class="zones zone-route14 tooltip"></div>
+                    <div id="route15" data-text="Route 15" class="zones zone-route15 tooltip"></div>
+                    <div id="route16" data-text="Route 16" class="zones zone-route16 tooltip"></div>
+                    <div id="route17" data-text="Route 17" class="zones zone-route17 tooltip"></div>
+                    <div id="route18" data-text="Route 18" class="zones zone-route18 tooltip"></div>
+                    <div id="route19" data-text="Route 19" class="zones zone-route19 tooltip"></div>
+                    <div id="route20" data-text="Route 20" class="zones zone-route20 tooltip"></div>
+                    <div id="route21" data-text="Route 21" class="zones zone-route21 tooltip"></div>
+                    <div id="route22" data-text="Route 22" class="zones zone-route22 tooltip"></div>
+                    <div id="route24" data-text="Route 24" class="zones zone-route24 tooltip"></div>
+                    <div id="route25" data-text="Route 25" class="zones zone-route25 tooltip"></div>
+                </div>
+            </section>
+            <section class="route1" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route1-grass" class="pokeball" style="top:255px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route2" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route2-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route3" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route3-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route4" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route4-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route5" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route5-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route6" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route6-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route7" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route7-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route8" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route8-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route9" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route9-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route10" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route10-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route11" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route11-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route12" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route12-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route13" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route13-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route14" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route14-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route15" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route15-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route16" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route16-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route17" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route17-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+
+            <section class="route18" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route18-1" class="pokeball" style="top:400px; left:1000px;"></div>
+                </div>
+            </section>
+            <section class="route19" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route19-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route20" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route20-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route21" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route21-grass" class="pokeball" style="top:500px; left:500px;"></div>
+                    <div id="route21-oldRod" class="pokeball" style="top:200px; left:500px;"></div>
+                    <div id="route21-surfing" class="pokeball" style="top:400px; left:500px;"></div>
+                    <div id="route21-superRod" class="pokeball" style="top:300px; left:500px;"></div>
+                    <div id="route21-goodRod" class="pokeball" style="top:100px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route22" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route22-grass" class="pokeball" style="top:500px; left:500px;"></div>
+                    <div id="route22-surfing" class="pokeball" style="top:250px; left:500px;"></div>
+                    <div id="route22-oldRod" class="pokeball" style="top:300px; left:500px;"></div>
+                    <div id="route22-goodRod" class="pokeball" style="top:400px; left:500px;"></div>
+                    <div id="route22-superRod" class="pokeball" style="top:500px; left:400px;"></div>
+                </div>
+            </section>
+            <section class="route23" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route22-grass" class="pokeball" style="top:500px; left:500px;"></div>
+                    <div id="route22-surfing" class="pokeball" style="top:250px; left:500px;"></div>
+                    <div id="route22-oldRod" class="pokeball" style="top:300px; left:500px;"></div>
+                    <div id="route22-goodRod" class="pokeball" style="top:400px; left:500px;"></div>
+                    <div id="route22-superRod" class="pokeball" style="top:500px; left:400px;"></div>
+                </div>
+            </section>
+            <section class="route24" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route24-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+            <section class="route25" style="top:0px; left:0px;">
+                <div class="pokeballs">
+                    <div id="route25-1" class="pokeball" style="top:500px; left:500px;"></div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</body>
+
+</html>

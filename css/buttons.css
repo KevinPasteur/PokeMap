@@ -1,0 +1,121 @@
+.btn {
+    position: absolute;
+    background-size: 100%;
+    height: 77px;
+    width: 77px;
+}
+
+.btn.up {
+    background: url("/img/boutons/boutonHautBas.svg") no-repeat no-repeat;
+    top: 254px;
+    left: 267px;
+}
+
+.btn.up:hover {
+    background: url("/img/boutons/boutonHautBas-hover.svg") no-repeat no-repeat;
+}
+
+.btn.down {
+    background: url("/img/boutons/boutonHautBas.svg") no-repeat no-repeat;
+    top: 410px;
+    left: 267px;
+}
+
+.btn.down:hover {
+    background: url("/img/boutons/boutonHautBas-hover.svg") no-repeat no-repeat;
+}
+
+.btn.right {
+    background: url("/img/boutons/boutonGaucheDroit.svg") no-repeat no-repeat;
+    top: 335px;
+    left: 342px;
+}
+
+.btn.right:hover {
+    background: url("/img/boutons/boutonGaucheDroit-hover.svg") no-repeat no-repeat;
+}
+
+.btn.left {
+    background: url("/img/boutons/boutonGaucheDroit.svg") no-repeat no-repeat;
+    top: 335px;
+    left: 185px;
+}
+
+.btn.left:hover {
+    background: url("/img/boutons/boutonGaucheDroit-hover.svg") no-repeat no-repeat;
+}
+
+.btn.b {
+    top: 369px;
+    left: 1514px;
+}
+
+.btn.funfact {
+    background: url("/img/boutons/boutonStatsFunfact.svg");
+    top: 671px;
+    left: 366px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+.btn.funfact:hover {
+    background: url("/img/boutons/boutonStatsFunfact_hover.svg");
+}
+
+.btn.stats {
+    background: url("/img/boutons/boutonStatsFunfact.svg");
+    top: 588px;
+    left: 366px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+.btn.stats:hover {
+    background: url("/img/boutons/boutonStatsFunfact_hover.svg");
+}
+
+.btn.pokedex.right {
+    background: url("/img/pokedex/BoutonDroit.svg");
+    top: 368px;
+    left: 541px;
+    height: 48px;
+    width: 58px;
+}
+
+.btn.pokedex.left {
+    background: url("/img/pokedex/BoutonGauche.svg");
+    top: 369px;
+    left: 478px;
+    height: 46px;
+    width: 59px;
+}
+
+.btn.power {
+    background: url("/img/boutons/boutonPower.svg") no-repeat no-repeat;
+    top: 667px;
+    left: 1743px;
+    height: 55px;
+    width: 55px;
+}
+
+.btn.power:hover {
+    background: url("/img/boutons/boutonPower-hover.svg") no-repeat no-repeat;
+}
+
+.led-on {
+    background: url("/img/boutons/powerColorVert.svg") no-repeat no-repeat;
+    top: 174px;
+    left: 1502px;
+    height: 29px;
+    width: 29px;
+}
+
+.led-off {
+    background: url("/img/boutons/powerColorRouge.svg") no-repeat no-repeat;
+    top: 174px;
+    left: 1502px;
+    height: 29px;
+    width: 29px;
+}
