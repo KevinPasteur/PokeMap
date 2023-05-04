@@ -1,6 +1,7 @@
 import * as d3 from "d3";
+import fs from "fs";
 
-import dataJson from "./data/data.json" assert { type: "json" };
+const dataJson = JSON.parse(fs.readFileSync("./data/data.json"));
 
 let map = document.querySelector(".active");
 const buttonParent = document.querySelector("#buttonParent");

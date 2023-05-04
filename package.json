@@ -4,6 +4,7 @@
   "description": "Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web :",
   "main": "index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
@@ -22,6 +23,10 @@
   "dependencies": {
     "config.json": "^0.0.4",
     "d3": "^7.8.4",
-    "data": "^0.6.1"
+    "data": "^0.6.1",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1"
   }
 }
