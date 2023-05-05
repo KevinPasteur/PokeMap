@@ -147,3 +147,45 @@ section.route25 {
     background-image: url("/img/maps/route25.png");
     width: 162vw;
 }
+
+section.palletTown {
+    background-image: url("/img/maps/palletTown.png");
+    height: 37vw;
+}
+
+section.viridianCity {
+    background-image: url("/img/maps/viridianCity.png");
+    width: 73vw;
+    height: 70vw;
+}
+
+section.viridianForest {
+    background-image: url("/img/maps/viridianForest.png");
+    width: 73vw;
+    height: 77vw;
+}
+
+section.celadonCity {
+    background-image: url("/img/maps/celadonCity.png");
+    width: 90vw;
+    height: 60vw;
+}
+
+section.cinnabarIsland {
+    background-image: url("/img/maps/cinnabarIsland.png");
+    width: 45vw;
+    height: 45vw;
+}
+
+section.fuchsiaCity {
+    background-image: url("/img/maps/fuchsiaCity.png");
+    width: 70vw;
+    height: 59vw;
+}
+
+section.vermilionCity {
+    background-image: url("/img/maps/vermilionCity.png");
+    width: 65vw;
+    height: 56vw;
+}
+
