@@ -887,7 +887,7 @@
                 },
                 {
                     "name" : "Psykokwak",
-                    "l  vl" : "15-35",
+                    "lvl" : "15-35",
                     "rate" : "5"                    
                 }
             ]
@@ -1147,6 +1147,67 @@
                     "name" : "Onix",
                     "lvl" : "13-17",
                     "rate" : "5"                    
+                },
+                {
+                    "name" : "Electhor",
+                    "lvl" : "50",
+                    "rate" : "One"                    
+                }
+            ]
+        },
+        "surfing" : {
+            "pokemon" : [
+                {
+                    "name" : "Tentacool",
+                    "lvl" : "5-40",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "oldRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5",
+                    "rate" : "100"                    
+                }
+            ]
+        },
+        "goodRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Magicarpe",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Krabby",
+                    "lvl" : "5-15",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Hypocean",
+                    "lvl" : "5-15",
+                    "rate" : "60"                    
+                }
+            ]
+        },
+        "superRod" : {
+            "pokemon" : [
+                {
+                    "name" : "Hypotrempe",
+                    "lvl" : "15-35",
+                    "rate" : "84"                    
+                },
+                {
+                    "name" : "Leviator",
+                    "lvl" : "15-25",
+                    "rate" : "20"                    
+                },
+                {
+                    "name" : "Psykokwak",
+                    "lvl" : "25-35",
+                    "rate" : "1"                    
                 }
             ]
         },
@@ -1214,23 +1275,28 @@
             "pokemon" : [
                 {
                     "name" : "Abra",
-                    "price" : "180 C"                  
+                    "lvl" : "8",
+                    "rate" : "180 C"                  
                 },
                 {
                     "name" : "Melofee",
-                    "price" : "500 C"                  
+                    "lvl" : "9",
+                    "rate" : "500 C"                  
                 },
                 {
                     "name" : "Minidraco",
-                    "price" : "2800 C"                  
+                    "lvl" : "18",
+                    "rate" : "2800 C"                  
                 },
                 {
                     "name" : "Porygon",
-                    "price" : "9999 C"                  
+                    "lvl" : "25",
+                    "rate" : "9999 C"                  
                 },
                 {
                     "name" : "Insecateur",
-                    "price" : "5500 C"                  
+                    "lvl" : "26",
+                    "rate" : "5500 C"                  
                 }
             ]
         },
@@ -1239,8 +1305,7 @@
     },
     "fuchsiaCity" : {
         "safari" : {
-            "grass" : {
-                "pokemon" : [
+            "pokemon" : [
                     {
                         "name" : "NidoranMale",
                         "lvl" : "22",
@@ -1310,29 +1375,17 @@
                         "name" : "Leveinard",
                         "lvl" : "23",
                         "rate" : "1"                    
-                    }
-                ]
-            },
-            "surfing" : {
-                "pokemon" : [
+                    },            
                     {
                         "name" : "Psykokwak",
                         "lvl" : "20-40",
                         "rate" : "100"                    
-                    }
-                ]
-            },
-            "oldRod" : {
-                "pokemon" : [
+                    },
                     {
                         "name" : "Magicarpe",
                         "lvl" : "5",
                         "rate" : "100"                    
-                    }
-                ]
-            },
-            "goodRod" : {
-                "pokemon" : [
+                    },
                     {
                         "name" : "Poissirene",
                         "lvl" : "5-15",
@@ -1347,11 +1400,7 @@
                         "name" : "Magicarpe",
                         "lvl" : "5-15",
                         "rate" : "20"                    
-                    }
-                ]
-            },
-            "superRod" : {
-                "pokemon" : [
+                    },
                     {
                         "name" : "Poissirene",
                         "lvl" : "15-25",
@@ -1378,7 +1427,6 @@
                         "rate" : "1"                    
                     }
                 ]
-            }
         },
         "surfing" : {
             "pokemon" : [

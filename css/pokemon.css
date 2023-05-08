@@ -226,10 +226,6 @@
     background: url("/img/sprites/Nosferapti.png") no-repeat no-repeat;
 }
 
-.Onyx {
-    background: url("/img/sprites/Onyx.png") no-repeat no-repeat;
-}
-
 .Ortide {
     background: url("/img/sprites/Ortide.png") no-repeat no-repeat;
 }
@@ -345,4 +341,8 @@
 
 .Voltorbe {
     background: url("/img/sprites/Voltorbe.png") no-repeat no-repeat;
+}
+
+.Onix {
+    background: url("/img/sprites/Onix.png") no-repeat no-repeat;
 }
