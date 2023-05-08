@@ -85,6 +85,41 @@ const printFunFact = (name) => {
   funfact.classList.toggle("active");
 };
 
+// create 2 data_set
+const data1 = [
+  { group: "A", value: 4 },
+  { group: "B", value: 16 },
+  { group: "C", value: 8 },
+];
+
+const data2 = [
+  { group: "A", value: 7 },
+  { group: "B", value: 1 },
+  { group: "C", value: 20 },
+];
+
+// set the dimensions and margins of the graph
+const margin = { top: 30, right: 30, bottom: 70, left: 60 },
+  width = 460 - margin.left - margin.right,
+  height = 400 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+const svg = d3
+  .select("#my_dataviz")
+  .append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", `translate(${margin.left},${margin.top})`);
+
+// Initialize the X axis
+var x = d3.scaleBand().range([0, width]).padding(0.2);
+var xAxis = svg.append("g").attr("transform", "translate(0," + height + ")");
+
+// Initialize the Y axis
+var y = d3.scaleLinear().range([height, 0]);
+var yAxis = svg.append("g").attr("class", "myYaxis");
+
 const printStats = () => {
   isStatsON = !isStatsON;
   document.querySelector(`.${currentZone}`).classList.toggle("active");
@@ -92,6 +127,10 @@ const printStats = () => {
   const stats = document.querySelector("section.stats");
 
   stats.classList.toggle("active");
+  // A function that create / update the plot for a given variable:
+
+  // Initialize the plot with the first dataset
+  update(data1);
 };
 
 const moveArray = (move) => {
@@ -180,6 +219,7 @@ const moveCamera = (value) => {
       break;
 
     case "btn-stats":
+      test();
       printStats();
       break;
 
@@ -213,3 +253,73 @@ pokedex.addEventListener("click", (e) => {
       break;
   }
 });
+
+console.log(document.querySelector(".stats"));
+document.querySelector("section.stats").addEventListener("click", (e) => {
+  console.log(e.target.id);
+
+  if (e.target.id === "btn-stats-1") {
+    console.log(data1);
+    update(data1);
+  } else {
+    let data3 = [];
+    let listPokemon = dataJson[currentZone];
+
+    Object.entries(listPokemon).forEach((entry) => {
+      const [key, value] = entry;
+      if (key !== "height" && key !== "width") {
+        data3.push({
+          group: getLocation(key),
+          value: Object.keys(value.pokemon).length,
+        });
+        console.log(Object.keys(value.pokemon).length);
+      }
+    });
+    console.log(data3);
+    update(data3);
+  }
+});
+
+const update = (data) => {
+  // Update the X axis
+  x.domain(
+    data.map(function (d) {
+      return d.group;
+    })
+  );
+  xAxis.call(d3.axisBottom(x));
+
+  // Update the Y axis
+  y.domain([
+    0,
+    d3.max(data, function (d) {
+      return d.value;
+    }),
+  ]);
+  yAxis.transition().duration(1000).call(d3.axisLeft(y));
+
+  // Create the u variable
+  var u = svg.selectAll("rect").data(data);
+
+  u.enter()
+    .append("rect") // Add a new rect for each new elements
+    .merge(u) // get the already existing elements as well
+    .transition() // and apply changes to all of them
+    .duration(1000)
+    .attr("x", function (d) {
+      return x(d.group);
+    })
+    .attr("y", function (d) {
+      return y(d.value);
+    })
+    .attr("width", x.bandwidth())
+    .attr("height", function (d) {
+      return height - y(d.value);
+    })
+    .attr("fill", "#69b3a2");
+
+  // If less group in the new dataset, I delete the ones not in use anymore
+  u.exit().remove();
+};
+
+const test = () => {};
