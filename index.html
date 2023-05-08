@@ -6,7 +6,6 @@
     <title>PokeMap - Version 1</title>
     <link rel="stylesheet" href="css/style.css">
     <script type="module" src="app.js" defer></script>
-    <script type="module" src="js/d3-stats.js" defer></script>
 </head>
 
 <body>
@@ -43,6 +42,10 @@
                 <div id="pokemon-rate" class="pokemon-rate"></div>
                 <div id="pokemon-position" class="pokemon-position"></div>
                 <div id="pokemon-pagination" class="pokemon-pagination"></div>
+                <div id="pokemon-type" class="pokemon-type">
+                    <div id="pokemon-type1"></div>
+                    <div id="pokemon-type2"></div>
+                </div>
             </section>
 
             <section class="map active" style="top:0px; left:0px;">
@@ -57,21 +60,21 @@
                     <div id="route15" data-text="ROUTE 15" class="zones zone-route15 tooltip"></div>
                     <div id="route17" data-text="ROUTE 17" class="zones zone-route17 tooltip"></div>
                     <div id="route19" data-text="ROUTE 19" class="zones zone-route19 tooltip"></div>
-                    <div id="route20" data-text="ROUTE 20" class="zones zone-route20 tooltip"></div>                   
+                    <div id="route20" data-text="ROUTE 20" class="zones zone-route20 tooltip"></div>
                     <div id="route25" data-text="ROUTE 25" class="zones zone-route25 tooltip"></div>
-                    <div id="route9" data-text="ROUTE 9" class="zones zone-route9 tooltip"></div>                    
+                    <div id="route9" data-text="ROUTE 9" class="zones zone-route9 tooltip"></div>
                     <div id="viridianCity" data-text="JADIELLE" class="zones zone-viridianCity tooltip"></div>
-                    <div id="vermilionCity" data-text="CARMIN SUR MER" class="zones zone-vermilionCity tooltip"></div>                   
+                    <div id="vermilionCity" data-text="CARMIN SUR MER" class="zones zone-vermilionCity tooltip"></div>
                     <div id="fuchsiaCity" data-text="PARMANIE" class="zones zone-fuchsiaCity tooltip"></div>
-                    <div id="cinnabarIsland" data-text="CRAMOIS'ILE" class="zones zone-cinnabarIsland tooltip"></div>                 
+                    <div id="cinnabarIsland" data-text="CRAMOIS'ILE" class="zones zone-cinnabarIsland tooltip"></div>
                     <div id="route8" data-text="ROUTE 8" class="zones zone-route8 tooltip"></div>
                     <div id="route4" data-text="ROUTE 4" class="zones zone-route4 tooltip"></div>
                     <div id="route1" data-text="ROUTE 1" class="zones zone-route1 tooltip"></div>
                     <div id="route18" data-text="ROUTE 18" class="zones zone-route18 tooltip"></div>
                     <div id="route5" data-text="ROUTE 5" class="zones zone-route5 tooltip"></div>
                     <div id="route6" data-text="ROUTE 6" class="zones zone-route6 tooltip"></div>
-                    <div id="route7" data-text="ROUTE 7" class="zones zone-route7 tooltip"></div> 
-                    <div id="celadonCity" data-text="CELADOPOLE" class="zones zone-celadonCity tooltip"></div> 
+                    <div id="route7" data-text="ROUTE 7" class="zones zone-route7 tooltip"></div>
+                    <div id="celadonCity" data-text="CELADOPOLE" class="zones zone-celadonCity tooltip"></div>
                     <div id="route21" data-text="ROUTE 21" class="zones zone-route21 tooltip"></div>
                     <div id="route16" data-text="ROUTE 16" class="zones zone-route16 tooltip"></div>
                     <div id="viridianForest" data-text="FORET DE JADE" class="zones zone-viridianForest tooltip"></div>
@@ -171,7 +174,7 @@
             </section>
             <section class="route6" style="top:0px; left:0px;">
                 <div class="pokeballs">
-                    <div id="route6-grass" class="pokeball" style="top:500px; left:500px;"></div>                    
+                    <div id="route6-grass" class="pokeball" style="top:500px; left:500px;"></div>
                     <div id="route6-surfing" class="pokeball" style="top: 810px; left: 110px;"></div>
                     <div id="route6-oldRod" class="pokeball" style="top: 810px; left: 210px;"></div>
                     <div id="route6-superRod" class="pokeball" style="top: 810px; left: 310px;"></div>

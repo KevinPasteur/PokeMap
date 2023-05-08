@@ -46,6 +46,113 @@
     color: white;
 }
 
+.pokemon-type {
+    position: absolute;
+}
+
+.pokemon-type1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    top: 145px;
+    left: 315px;
+    height: 25px;
+    width: 25px;
+}
+
+.pokemon-type2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    top: 145px;
+    left: 285px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.pokemon-dark {
+    background: url("/img/types/dark.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-bug {
+    background: url("/img/types/bug.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-dragon {
+    background: url("/img/types/dragon.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-electric {
+    background: url("/img/types/electric.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-fight {
+    background: url("/img/types/fight.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-fire {
+    background: url("/img/types/fire.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-flying {
+    background: url("/img/types/flying.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-grass {
+    background: url("/img/types/grass.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-ground {
+    background: url("/img/types/ground.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-ice {
+    background: url("/img/types/ice.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-normal {
+    background: url("/img/types/normal.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-poison {
+    background: url("/img/types/poison.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-psychic {
+    background: url("/img/types/psychic.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-rock {
+    background: url("/img/types/rock.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-steel {
+    background: url("/img/types/steel.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
+.pokemon-water {
+    background: url("/img/types/water.png") no-repeat no-repeat;
+    background-size: contain;
+}
+
 .Abo {
     background: url("/img/sprites/Abo.png") no-repeat no-repeat;
 }
@@ -96,6 +203,10 @@
 
 .Coconfort {
     background: url("/img/sprites/Coconfort.png") no-repeat no-repeat;
+}
+
+.Colossinge {
+    background: url("/img/sprites/Colossinge.png") no-repeat no-repeat;
 }
 
 .Doduo {

@@ -19,6 +19,8 @@ const pokemonLvl = document.querySelector("#pokemon-lvl");
 const pokemonRate = document.querySelector("#pokemon-rate");
 const pokemonPosition = document.querySelector("#pokemon-position");
 const pokemonPagination = document.querySelector("#pokemon-pagination");
+const pokemonType1 = document.querySelector("#pokemon-type1");
+const pokemonType2 = document.querySelector("#pokemon-type2");
 
 let listCurrentPokemon = [];
 let currentPokemonKey = 0;
@@ -148,14 +150,34 @@ const getLocation = (location) => {
   return Location[location];
 };
 
+const formatPokemonName = (name) => {
+  if (name === "NidoranMale") name = "Nidoran (M)";
+  if (name === "NidoranFemelle") name = "Nidoran (F)";
+
+  return name;
+};
+
+const changeType = (pokemon) => {
+  pokemonType1.className = "pokemon-type1";
+  pokemonType2.className = "pokemon-type2";
+
+  if (Array.isArray(pokemon.type)) {
+    pokemonType1.classList.add("pokemon-" + pokemon.type[0]);
+    pokemonType2.classList.add("pokemon-" + pokemon.type[1]);
+  } else pokemonType1.classList.add("pokemon-" + pokemon.type);
+};
+
 const printPokemon = (pokemon) => {
+  console.log(pokemon);
+
+  changeType(pokemon);
+
   pokemonImage.className = "";
   pokemonImage.classList.add(
     "pokemon-image",
     pokemon.name.normalize("NFD").replace(/\p{Diacritic}/gu, "")
   );
-
-  pokemonName.innerHTML = pokemon.name;
+  pokemonName.innerHTML = formatPokemonName(pokemon.name);
   pokemonLvl.innerHTML = pokemon.lvl;
   pokemonRate.innerHTML = pokemon.rate + "%";
   pokemonPosition.innerHTML = getLocation(listCurrentPokemon.location);

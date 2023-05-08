@@ -5,17 +5,20 @@
                 {
                     "name" : "Salameche",
                     "lvl" : "5",
-                    "rate" : "One"                    
+                    "rate" : "One",
+                    "type" : "fire"                          
                 },
                 {
                     "name" : "Carapuce",
                     "lvl" : "5",
-                    "rate" : "One"                    
+                    "rate" : "One",
+                    "type" : "water"               
                 },
                 {
                     "name" : "Bulbizarre",
                     "lvl" : "5",
-                    "rate" : "One"                    
+                    "rate" : "One",
+                    "type" : ["grass", "poison"]         
                 }
             ]
         },
@@ -24,7 +27,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                    
                 }
             ]
         },
@@ -33,7 +37,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-10",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                     
                 }
             ]
         },
@@ -42,17 +47,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -61,27 +69,32 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Kokiyas",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypocean",
                     "lvl" : "25-35",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                  
                 }
             ]
         },
@@ -96,13 +109,15 @@
                 {
                     "name" : "Roucool",
                     "lvl" : "2-5",
-                    "rate" : "50"
+                    "rate" : "50",
+                    "type" : ["normal","flying"]
     
                 },
                 {
                     "name": "Rattata",
                     "lvl" : "2-4",
-                    "rate" : "50"
+                    "rate" : "50",
+                    "type" : "normal"
                 }
             ]
             
@@ -119,7 +134,8 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "20-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                   
                 }
             ]
         },
@@ -128,7 +144,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -137,17 +154,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Poissirene",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                   
                 },
                 {
                     "name" : "Ptitard",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -156,22 +176,26 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Tetarte",
                     "lvl" : "20-30",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -186,17 +210,20 @@
                 {
                     "name" : "Rattata",
                     "lvl" : "2-5",
-                    "rate" : "45"                    
+                    "rate" : "45",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Ferosinge",
                     "lvl" : "2-5",
-                    "rate" : "45"                    
+                    "rate" : "45",
+                    "type" : "fight"                    
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "3-5",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : ["normal","flying"]                     
                 }
             ]
         },
@@ -205,7 +232,8 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "20-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -214,7 +242,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -223,17 +252,20 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Poissirene",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                     
                 }
             ]
         },
@@ -242,22 +274,26 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Tetarte",
                     "lvl" : "20-30",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -270,32 +306,38 @@
                 {
                     "name" : "Piafabec",
                     "lvl" : "32-34",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Rapasdepic",
                     "lvl" : "40-44",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Abo",
                     "lvl" : "32-34",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "poison"                     
                 },
                 {
                     "name" : "Arbok",
                     "lvl" : "44",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "poison"                    
                 },
                 {
                     "name" : "Ferosinge",
                     "lvl" : "32-34",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : "fight"                     
                 },
                 {
                     "name" : "Colossinge",
                     "lvl" : "42",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "fight"                    
                 }
             ]
         },
@@ -304,7 +346,8 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "20-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -313,7 +356,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -322,17 +366,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Poissirene",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Ptitard",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                     
                 }
             ]
         },
@@ -341,22 +388,26 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                   
                 },
                 {
                     "name" : "Ptitard",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Tetarte",
                     "lvl" : "20-30",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 }
             ]
         },
@@ -369,22 +420,26 @@
                 {
                     "name" : "Roucool",
                     "lvl" : "2-5",
-                    "rate" : "45"                    
+                    "rate" : "45",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Rattata",
                     "lvl" : "2-5",
-                    "rate" : "45"                    
+                    "rate" : "45",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Chenipan",
                     "lvl" : "4-5",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "bug"                         
                 },
                 {
                     "name" : "Aspicot",
                     "lvl" : "4-5",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["bug","poison"]                    
                 }
             ]
         },
@@ -393,12 +448,14 @@
                 {
                     "name" : "Taupiqueur",
                     "lvl" : "15-22",
-                    "rate" : "95"                    
+                    "rate" : "95",
+                    "type" : "ground"                    
                 },
                 {
                     "name" : "Triopikeur",
                     "lvl" : "29-31",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "ground"                   
                 }
             ]
         },
@@ -411,27 +468,32 @@
                 {
                     "name" : "Chenipan",
                     "lvl" : "3-5",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "bug"                    
                 },
                 {
                     "name" : "Aspicot",
                     "lvl" : "3-5",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : ["bug","poison"]                     
                 },
                 {
                     "name" : "Chrysacier",
                     "lvl" : "5",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "bug"                   
                 },
                 {
                     "name" : "Coconfort",
                     "lvl" : "4-6",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : ["bug", "poison"]                    
                 },
                 {
                     "name" : "Pikachu",
                     "lvl" : "3-5",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" :"electric"                   
                 }
             ]
         },
@@ -444,32 +506,38 @@
                 {
                     "name" : "Piafabec",
                     "lvl" : "6-8",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "6-7",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Rondoudou",
                     "lvl" : "3-7",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" :"normal"                    
                 },
                 {
                     "name" : "Ferosinge",
                     "lvl" : "7",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : "fight"                     
                 },
                 {
                     "name" : "NidoranMale",
                     "lvl" : "6",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" :"poison"                     
                 },
                 {
                     "name" : "NidoranFemelle",
                     "lvl" : "6-7",
-                    "rate" : "14"                    
+                    "rate" : "14",
+                    "type" :"poison"                    
                 }
             ]
         },
@@ -482,22 +550,26 @@
                 {
                     "name" : "Rattata",
                     "lvl" : "8-12",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "8-12",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Abo",
                     "lvl" : "6-12",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : "poison"                    
                 },
                 {
                     "name" : "Ferosinge",
                     "lvl" : "10-12",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "fight"                     
                 }
             ]
         },
@@ -506,7 +578,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -515,7 +588,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -524,17 +598,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -543,17 +620,20 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "84"                    
+                    "rate" : "84",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -562,22 +642,26 @@
                 {
                     "name" : "Nosferapti",
                     "lvl" : "7-10",
-                    "rate" : "69"                    
+                    "rate" : "69",
+                    "type" : ["poison","flying"]                     
                 },
                 {
                     "name" : "Racaillou",
                     "lvl" : "7-9",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["rock","ground"]                     
                 },
                 {
                     "name" : "Paras",
                     "lvl" : "8",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["bug","grass"]                   
                 },
                 {
                     "name" : "Melofee",
                     "lvl" : "8",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "normal"                   
                 }
             ]
         },
@@ -590,37 +674,44 @@
                 {
                     "name" : "Chenipan",
                     "lvl" : "7",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : "bug"                  
                 },
                 {
                     "name" : "Aspicot",
                     "lvl" : "7",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["bug","poison"]                     
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "11-13",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Abra",
                     "lvl" : "8-12",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "psychic"                   
                 },
                 {
                     "name" : "Mystherbe",
                     "lvl" : "12-14",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["grass","poison"]                    
                 },
                 {
                     "name" : "Coconfort",
                     "lvl" : "8",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : ["bug", "poison"]                     
                 },
                 {
                     "name" : "Chrysacier",
                     "lvl" : "8",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "bug"                    
                 }
             ]
         },
@@ -629,7 +720,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -638,7 +730,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -647,17 +740,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -666,17 +762,20 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "84"                    
+                    "rate" : "84",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -689,37 +788,44 @@
                 {
                     "name" : "Chenipan",
                     "lvl" : "8",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "bug"                     
                 },
                 {
                     "name" : "Aspicot",
                     "lvl" : "8",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : ["bug","poison"]                
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "11-13",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Abra",
                     "lvl" : "9-13",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "psychic"                   
                 },
                 {
                     "name" : "Mystherbe",
                     "lvl" : "12-14",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["grass","poison"]                     
                 },
                 {
                     "name" : "Coconfort",
                     "lvl" : "9",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : ["bug", "poison"]                     
                 },
                 {
                     "name" : "Chrysacier",
                     "lvl" : "9",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "bug"                    
                 }
             ]
         },
@@ -728,7 +834,8 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "20-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -737,7 +844,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -746,17 +854,20 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Poissirene",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                     
                 }
             ]
         },
@@ -765,22 +876,26 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Tetarte",
                     "lvl" : "20-30",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -793,17 +908,20 @@
                 {
                     "name" : "Roucool",
                     "lvl" : "13-16",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Miaouss",
                     "lvl" : "10-16",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Mystherbe",
                     "lvl" : "13-16",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["grass","poison"]                     
                 }
             ]
         },
@@ -817,17 +935,20 @@
                 {
                     "name" : "Roucool",
                     "lvl" : "13-16",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Miaouss",
                     "lvl" : "10-16",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : "normal"                     
                 },
                 {
                     "name" : "Mystherbe",
                     "lvl" : "13-16",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : ["grass","poison"]                     
                 }
             ]
         },
@@ -836,7 +957,8 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "20-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -845,7 +967,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -854,17 +977,20 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Poissirene",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                     
                 }
             ]
         },
@@ -873,22 +999,26 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Tetarte",
                     "lvl" : "20-30",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                   
                 }
             ]
         },
@@ -901,7 +1031,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -910,7 +1041,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -919,17 +1051,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -938,22 +1073,26 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "44"                    
+                    "rate" : "44",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Kokiyas",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -966,17 +1105,20 @@
                 {
                     "name" : "Piafabec",
                     "lvl" : "13-17",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Abo",
                     "lvl" : "12-15",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "poison"                    
                 },
                 {
                     "name" : "Soporifik",
                     "lvl" : "11-15",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : "psychic"                     
                 }
             ]
         },
@@ -985,7 +1127,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -994,7 +1137,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-10",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1003,17 +1147,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1022,17 +1169,20 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "84"                    
+                    "rate" : "84",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1045,17 +1195,20 @@
                 {
                     "name" : "Rattata",
                     "lvl" : "14-17",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "13-17",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Abo",
                     "lvl" : "11-17",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : "poison"                    
                 }
             ]
         },
@@ -1068,17 +1221,20 @@
                 {
                     "name" : "Voltorbe",
                     "lvl" : "14-17",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "electric"                    
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "13-17",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Abo",
                     "lvl" : "11-17",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : "poison"                    
                 }
             ]
         },
@@ -1087,27 +1243,32 @@
                 {
                     "name" : "Nosferapti",
                     "lvl" : "15-16",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["poison","flying"]                     
                 },
                 {
                     "name" : "Ferosinge",
                     "lvl" : "16-17",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "fight"                     
                 },
                 {
                     "name" : "Machop",
                     "lvl" : "16-17",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "fight"                    
                 },
                 {
                     "name" : "Racaillou",
                     "lvl" : "15-17",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["rock","ground"]                    
                 },
                 {
                     "name" : "Onix",
                     "lvl" : "13-17",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["rock","ground"]                    
                 }
             ]
         },
@@ -1116,42 +1277,50 @@
                 {
                     "name" : "Magneti",
                     "lvl" : "22-25",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["electric","steel"]                    
                 },
                 {
                     "name" : "Voltorbe",
                     "lvl" : "22-25",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : "electric"                  
                 },
                 {
                     "name" : "Pikachu",
                     "lvl" : "22-26",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" :"electric"                    
                 },
                 {
                     "name" : "Magneton",
                     "lvl" : "31-34",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : ["electric","steel"]                     
                 },
                 {
                     "name" : "Elektek",
                     "lvl" : "32-35",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : "electric"                     
                 },
                 {
                     "name" : "Electrode",
                     "lvl" : "34",
-                    "rate" : "Two"                    
+                    "rate" : "Two",
+                    "type" : "electric"                    
                 },
                 {
                     "name" : "Onix",
                     "lvl" : "13-17",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["rock","ground"]                     
                 },
                 {
                     "name" : "Electhor",
                     "lvl" : "50",
-                    "rate" : "One"                    
+                    "rate" : "One",
+                    "type" : ["electric","flying"]                    
                 }
             ]
         },
@@ -1160,7 +1329,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -1169,7 +1339,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1178,17 +1349,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypocean",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1197,17 +1371,20 @@
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "84"                    
+                    "rate" : "84",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1220,22 +1397,26 @@
                 {
                     "name" : "Roucool",
                     "lvl" : "18-20",
-                    "rate" : "30"                  
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                  
                 },
                 {
                     "name" : "Miaouss",
                     "lvl" : "18-20",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : "normal"                     
                 },
                 {
                     "name" : "Abo",
                     "lvl" : "17-19",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "poison"                    
                 },
                 {
                     "name" : "Caninos",
                     "lvl" : "15-18",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "fire"                    
                 }
             ]
         },
@@ -1248,22 +1429,26 @@
                 {
                     "name" : "Roucool",
                     "lvl" : "19-22",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Miaouss",
                     "lvl" : "17-20",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "normal"                     
                 },
                 {
                     "name" : "Mystherbe",
                     "lvl" : "19-22",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : ["grass","poison"]                     
                 },
                 {
                     "name" : "Caninos",
                     "lvl" : "18-20",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : "fire"                    
                 }
             ]
         },
@@ -1276,27 +1461,32 @@
                 {
                     "name" : "Abra",
                     "lvl" : "8",
-                    "rate" : "180 C"                  
+                    "rate" : "180 C",
+                    "type" : "psychic"                  
                 },
                 {
                     "name" : "Melofee",
                     "lvl" : "9",
-                    "rate" : "500 C"                  
+                    "rate" : "500 C",
+                    "type" : "normal"                 
                 },
                 {
                     "name" : "Minidraco",
                     "lvl" : "18",
-                    "rate" : "2800 C"                  
+                    "rate" : "2800 C",
+                    "type" : "dragon"                  
                 },
                 {
                     "name" : "Porygon",
                     "lvl" : "25",
-                    "rate" : "9999 C"                  
+                    "rate" : "9999 C",
+                    "type" : "normal"                  
                 },
                 {
                     "name" : "Insecateur",
                     "lvl" : "26",
-                    "rate" : "5500 C"                  
+                    "rate" : "5500 C",
+                    "type" : ["bug","flying"]                 
                 }
             ]
         },
@@ -1309,122 +1499,146 @@
                     {
                         "name" : "NidoranMale",
                         "lvl" : "22",
-                        "rate" : "20"                    
+                        "rate" : "20",
+                        "type" : "poison"                     
                     },
                     {
                         "name" : "Noeunoeuf",
                         "lvl" : "25",
-                        "rate" : "10"                    
+                        "rate" : "10",
+                        "type" : ["grass","psychic"]                    
                     },
                     {
                         "name" : "Doduo",
                         "lvl" : "25",
-                        "rate" : "5"                    
+                        "rate" : "5",
+                        "type" : ["normal","flying"]                    
                     },
                     {
                         "name" : "Paras",
                         "lvl" : "25",
-                        "rate" : "5"                    
+                        "rate" : "5",
+                        "type" : ["bug","grass"]                    
                     },
                     {
                         "name" : "Rhinocorne",
                         "lvl" : "20-25",
-                        "rate" : "20"                    
+                        "rate" : "20",
+                        "type" : ["ground","rock"]                    
                     },
                     {
                         "name" : "Mimitoss",
                         "lvl" : "22",
-                        "rate" : "15"                    
+                        "rate" : "15",
+                        "type" : ["bug","poison"]                    
                     },
                     {
                         "name" : "Nidorino",
                         "lvl" : "31",
-                        "rate" : "10"                    
+                        "rate" : "10",
+                        "type" : "poison"                  
                     },
                     {
                         "name" : "Nidorina",
                         "lvl" : "31",
-                        "rate" : "5"                    
+                        "rate" : "5",
+                        "type" : "poison"                    
                     },
                     {
                         "name" : "Parasect",
                         "lvl" : "30",
-                        "rate" : "5"                    
+                        "rate" : "5",
+                        "type" : ["bug","grass"]                    
                     },
                     {
                         "name" : "Insecateur",
                         "lvl" : "23",
-                        "rate" : "1"                    
+                        "rate" : "1",
+                        "type" : ["bug","flying"]                   
                     },
                     {
                         "name" : "Kangourex",
                         "lvl" : "25",
-                        "rate" : "1"                    
+                        "rate" : "1",
+                        "type" : "normal"                
                     },
                     {
                         "name" : "Aeromite",
                         "lvl" : "32",
-                        "rate" : "1"                    
+                        "rate" : "1",
+                        "type" : ["bug","poison"]                  
                     },
                     {
                         "name" : "Tauros",
                         "lvl" : "25",
-                        "rate" : "1"                    
+                        "rate" : "1",
+                        "type" : "normal"                    
                     },
                     {
                         "name" : "Leveinard",
                         "lvl" : "23",
-                        "rate" : "1"                    
+                        "rate" : "1",
+                        "type" : "normal"                     
                     },            
                     {
                         "name" : "Psykokwak",
                         "lvl" : "20-40",
-                        "rate" : "100"                    
+                        "rate" : "100",
+                        "type" : "water"                    
                     },
                     {
                         "name" : "Magicarpe",
                         "lvl" : "5",
-                        "rate" : "100"                    
+                        "rate" : "100",
+                        "type" : "water"                    
                     },
                     {
                         "name" : "Poissirene",
                         "lvl" : "5-15",
-                        "rate" : "60"                    
+                        "rate" : "60",
+                        "type" : "water"                     
                     },
                     {
                         "name" : "Ptitard",
                         "lvl" : "5-15",
-                        "rate" : "20"                    
+                        "rate" : "20",
+                        "type" : "water"                     
                     },
                     {
                         "name" : "Magicarpe",
                         "lvl" : "5-15",
-                        "rate" : "20"                    
+                        "rate" : "20",
+                        "type" : "water"                    
                     },
                     {
                         "name" : "Poissirene",
                         "lvl" : "15-25",
-                        "rate" : "40"                    
+                        "rate" : "40",
+                        "type" : "water"                     
                     },
                     {
                         "name" : "Poissoroy",
                         "lvl" : "20-30",
-                        "rate" : "40"                    
+                        "rate" : "40",
+                        "type" : "water"                     
                     },
                     {
                         "name" : "Minidraco",
                         "lvl" : "15-25",
-                        "rate" : "15"                    
+                        "rate" : "15",
+                        "type" : "dragon"                     
                     },
                     {
                         "name" : "Psykokwak",
                         "lvl" : "15-35",
-                        "rate" : "4"                    
+                        "rate" : "4",
+                        "type" : "water"                    
                     },
                     {
                         "name" : "Draco",
                         "lvl" : "25-35",
-                        "rate" : "1"                    
+                        "rate" : "1",
+                        "type" : "dragon"                     
                     }
                 ]
         },
@@ -1433,7 +1647,8 @@
                 {
                     "name" : "Psykokwak",
                     "lvl" : "20-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1442,7 +1657,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                   
                 }
             ]
         },
@@ -1451,17 +1667,20 @@
                 {
                     "name" : "Ptitard",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Poissirene",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1470,22 +1689,26 @@
                 {
                     "name" : "Poissirene",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Poissoroy",
                     "lvl" : "20-30",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1498,22 +1721,26 @@
                 {
                     "name" : "Mystherbe",
                     "lvl" : "22-26",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["grass","poison"]                     
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "23-27",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Mimitoss",
                     "lvl" : "24-26",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["bug","poison"]                    
                 },
                 {
                     "name" : "Ortide",
                     "lvl" : "28-30",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["herbe","poison"]                    
                 }
             ]
         },
@@ -1522,7 +1749,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -1531,7 +1759,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1540,17 +1769,20 @@
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1559,17 +1791,20 @@
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "84"                    
+                    "rate" : "84",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1578,7 +1813,8 @@
                 {
                     "name" : "Ronflex",
                     "lvl" : "30",
-                    "rate" : "one"                    
+                    "rate" : "one",
+                    "type" : "normal"                  
                 }
             ]
         },
@@ -1591,32 +1827,38 @@
                 {
                     "name" : "Mystherbe",
                     "lvl" : "22-26",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["grass","poison"]                     
                 },
                 {
                     "name" : "Mimitoss",
                     "lvl" : "24-26",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : ["bug","poison"]                     
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "25-27",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Roucoups",
                     "lvl" : "29",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Ortide",
                     "lvl" : "28-30",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["herbe","poison"]                    
                 },
                 {
                     "name" : "Metamorph",
                     "lvl" : "25",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "normal"                   
                 }
             ]
         },
@@ -1625,7 +1867,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -1634,7 +1877,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1643,17 +1887,20 @@
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1662,17 +1909,20 @@
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "84"                    
+                    "rate" : "84",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1685,32 +1935,38 @@
                 {
                     "name" : "Mystherbe",
                     "lvl" : "22-26",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["grass","poison"]                     
                 },
                 {
                     "name" : "Mimitoss",
                     "lvl" : "24-26",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["bug","poison"]                     
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "27",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Roucoups",
                     "lvl" : "29",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Ortide",
                     "lvl" : "30",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["herbe","poison"]                    
                 },
                 {
                     "name" : "Metamorph",
                     "lvl" : "23-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "normal"                  
                 }
             ]
         },
@@ -1723,32 +1979,38 @@
                 {
                     "name" : "Mystherbe",
                     "lvl" : "22-26",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["grass","poison"]                     
                 },
                 {
                     "name" : "Mimitoss",
                     "lvl" : "24-26",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["bug","poison"]                    
                 },
                 {
                     "name" : "Roucool",
                     "lvl" : "25-27",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Roucoups",
                     "lvl" : "29",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Ortide",
                     "lvl" : "28-30",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["herbe","poison"]                    
                 },
                 {
                     "name" : "Metamorph",
                     "lvl" : "25",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "normal"                   
                 }
             ]
         },
@@ -1761,22 +2023,26 @@
                 {
                     "name" : "Doduo",
                     "lvl" : "18-22",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Rattata",
                     "lvl" : "18-22",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "20-22",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Rattatac",
                     "lvl" : "23-25",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "normal"                    
                 }
             ]
         },
@@ -1785,7 +2051,8 @@
                 {
                     "name" : "Ronflex",
                     "lvl" : "30",
-                    "rate" : "one"                    
+                    "rate" : "one",
+                    "type" : "normal"                   
                 }
             ]
         },
@@ -1798,27 +2065,32 @@
                 {
                     "name" : "Doduo",
                     "lvl" : "24-28",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                   
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "20-22",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Rattatac",
                     "lvl" : "25-29",
-                    "rate" : "25"                    
+                    "rate" : "25",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Rattata",
                     "lvl" : "22",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Rapasdepic",
                     "lvl" : "25-27",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["normal","flying"]                    
                 }
             ]
         },
@@ -1831,27 +2103,32 @@
                 {
                     "name" : "Doduo",
                     "lvl" : "24-28",
-                    "rate" : "35"                    
+                    "rate" : "35",
+                    "type" : ["normal","flying"]                    
                 },
                 {
                     "name" : "Piafabec",
                     "lvl" : "20-22",
-                    "rate" : "30"                    
+                    "rate" : "30",
+                    "type" : ["normal","flying"]                     
                 },
                 {
                     "name" : "Rattatac",
                     "lvl" : "25-29",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Rattata",
                     "lvl" : "22",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "normal"                    
                 },
                 {
                     "name" : "Rapasdepic",
                     "lvl" : "25-29",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["normal","flying"]                     
                 }
             ]
         },
@@ -1864,7 +2141,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -1873,7 +2151,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1882,17 +2161,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1901,22 +2183,26 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "80"                    
+                    "rate" : "80",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypocean",
                     "lvl" : "25-35",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1929,7 +2215,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -1938,7 +2225,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1947,17 +2235,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1966,22 +2257,26 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "80"                    
+                    "rate" : "80",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypocean",
                     "lvl" : "25-35",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : "water"                   
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -1990,47 +2285,56 @@
                 {
                     "name" : "Otaria",
                     "lvl" : "30-34",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                   
                 },
                 {
                     "name" : "Nosferalto",
                     "lvl" : "26-30",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : ["poison","flying"]                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "32",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Akwakwak",
                     "lvl" : "32-34",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : "water"                   
                 },
                 {
                     "name" : "Lamantine",
                     "lvl" : "34-36",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["water","ice"]                   
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "25-30",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "10"                    
+                    "rate" : "10",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Leviator",
                     "lvl" : "15-35",
-                    "rate" : "5"                    
+                    "rate" : "5",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Artikodin",
                     "lvl" : "50",
-                    "rate" : "One"                    
+                    "rate" : "One",
+                    "type" : ["ice","flying"]                    
                 }
             ]
         },
@@ -2043,7 +2347,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -2052,7 +2357,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-10",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -2061,17 +2367,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -2080,27 +2389,32 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "15"                    
+                    "rate" : "15",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypocean",
                     "lvl" : "25-35",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Kokiyas",
                     "lvl" : "15-25",
-                    "rate" : "40"                    
+                    "rate" : "40",
+                    "type" : "water"                     
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                   
                 }
             ]
         },
@@ -2113,7 +2427,8 @@
                 {
                     "name" : "Saquedeneu",
                     "lvl" : "17-28",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "grass"                    
                 }
             ]
         },
@@ -2122,7 +2437,8 @@
                 {
                     "name" : "Tentacool",
                     "lvl" : "5-40",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : ["water","poison"]                     
                 }
             ]
         },
@@ -2131,7 +2447,8 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5",
-                    "rate" : "100"                    
+                    "rate" : "100",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -2140,17 +2457,20 @@
                 {
                     "name" : "Magicarpe",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "5-15",
-                    "rate" : "60"                    
+                    "rate" : "60",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Krabby",
                     "lvl" : "5-15",
-                    "rate" : "20"                    
+                    "rate" : "20",
+                    "type" : "water"                    
                 }
             ]
         },
@@ -2159,22 +2479,26 @@
                 {
                     "name" : "Leviator",
                     "lvl" : "15-25",
-                    "rate" : "80"                    
+                    "rate" : "80",
+                    "type" : ["water", "flying"]                     
                 },
                 {
                     "name" : "Hypotrempe",
                     "lvl" : "15-35",
-                    "rate" : "80"                    
+                    "rate" : "80",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Hypocean",
                     "lvl" : "25-35",
-                    "rate" : "4"                    
+                    "rate" : "4",
+                    "type" : "water"                    
                 },
                 {
                     "name" : "Psykokwak",
                     "lvl" : "25-35",
-                    "rate" : "1"                    
+                    "rate" : "1",
+                    "type" : "water"                    
                 }
             ]
         },
