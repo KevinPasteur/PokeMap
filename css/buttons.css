@@ -46,8 +46,14 @@
 }
 
 .btn.b {
-    top: 369px;
-    left: 1514px;
+    height: 110px;
+    width: 110px;
+    top: 355px;
+    left: 1498px;
+}
+
+.btn.b:hover {
+    background: url("/img/boutons/boutonAB-hover.svg") no-repeat no-repeat;
 }
 
 .btn.funfact {
@@ -118,4 +124,38 @@
     left: 1502px;
     height: 29px;
     width: 29px;
+}
+
+.stats1 {
+    background-image: url("/img/stats/boutonTypesDePKMN.png");
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    height: 37px;
+    width: 159px;
+}
+
+.stats1:hover {
+    background-image: url("/img/stats/boutonTypesDePKMN-hover.png");
+}
+
+.stats1-active {
+    background-image: url("/img/stats/boutonTypesDePKMN-hover.png");
+}
+
+.stats2 {
+    background-image: url("/img/stats/boutonZonesDeCapture.png");
+    position: absolute;
+    top: 50px;
+    left: 515px;
+    height: 37px;
+    width: 190px;
+}
+
+.stats2:hover {
+    background-image: url("/img/stats/boutonZonesDeCapture-hover.png");
+}
+
+.stats2-active {
+    background-image: url("/img/stats/boutonZonesDeCapture-hover.png");
 }

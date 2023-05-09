@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+import { create } from "domain";
 import fs from "fs";
 
 const dataJson = JSON.parse(fs.readFileSync("./data/data.json"));
@@ -13,6 +14,8 @@ const pokedex = document.querySelector("section.pokedex");
 
 const camera = document.querySelector(".camera");
 
+const title = document.querySelector("#titre");
+
 const pokemonImage = document.querySelector("#pokemon-image");
 const pokemonName = document.querySelector("#pokemon-name");
 const pokemonLvl = document.querySelector("#pokemon-lvl");
@@ -21,6 +24,9 @@ const pokemonPosition = document.querySelector("#pokemon-position");
 const pokemonPagination = document.querySelector("#pokemon-pagination");
 const pokemonType1 = document.querySelector("#pokemon-type1");
 const pokemonType2 = document.querySelector("#pokemon-type2");
+
+const btnStats1 = document.querySelector("#btn-stats-1");
+const btnStats2 = document.querySelector("#btn-stats-2");
 
 let listCurrentPokemon = [];
 let currentPokemonKey = 0;
@@ -33,6 +39,41 @@ let isPokedexON = false;
 let isStatsON = false;
 let isPowerON = true;
 
+const Zones = {
+  route1: "ROUTE 1",
+  route2: "ROUTE 2",
+  route3: "ROUTE 3",
+  route4: "ROUTE 4",
+  route5: "ROUTE 5",
+  route6: "ROUTE 6",
+  route7: "ROUTE 7",
+  route8: "ROUTE 8",
+  route9: "ROUTE 9",
+  route10: "ROUTE 10",
+  route11: "ROUTE 11",
+  route12: "ROUTE 12",
+  route13: "ROUTE 13",
+  route14: "ROUTE 14",
+  route15: "ROUTE 15",
+  route16: "ROUTE 16",
+  route17: "ROUTE 17",
+  route18: "ROUTE 18",
+  route19: "ROUTE 19",
+  route20: "ROUTE 20",
+  route21: "ROUTE 21",
+  route22: "ROUTE 22",
+  route23: "ROUTE 23",
+  route24: "ROUTE 24",
+  route25: "ROUTE 25",
+  palletTown: "BOURG PALETTE",
+  viridianCity: "JADIELLE",
+  viridianForest: "FORET DE JADE",
+  vermilionCity: "CARMIN SUR MER",
+  celadonCity: "CELADOPOLE",
+  fuchsiaCity: "PARMANIE",
+  cinnabarIsland: "CRAMOIS'ILE",
+};
+
 const Location = {
   grass: "Herbe",
   surfing: "Surf",
@@ -43,6 +84,53 @@ const Location = {
   starter: "Starter",
   casino: "Casino",
   special: "Special",
+  safari: "Safari",
+  powerPlant: "Centrale",
+};
+
+const Types = {
+  normal: "Normal",
+  fire: "Feu",
+  water: "Eau",
+  electric: "Electrique",
+  grass: "Plante",
+  ice: "Glace",
+  fight: "Combat",
+  poison: "Poison",
+  ground: "Sol",
+  flying: "Vol",
+  psychic: "Psy",
+  bug: "Insecte",
+  rock: "Roche",
+  dragon: "Dragon",
+  dark: "Tenebres",
+  steel: "Acier",
+  fairy: "Fee",
+};
+
+let countTypes = {
+  normal: 0,
+  fire: 0,
+  water: 0,
+  electric: 0,
+  grass: 0,
+  ice: 0,
+  fight: 0,
+  poison: 0,
+  ground: 0,
+  flying: 0,
+  psychic: 0,
+  bug: 0,
+  rock: 0,
+  dragon: 0,
+  dark: 0,
+  steel: 0,
+  fairy: 0,
+};
+
+const toggleTitle = (zone) => {
+  title.classList.toggle("activateTitle");
+  title.innerHTML = getZone(zone);
 };
 
 const changeZone = (newZone) => {
@@ -53,6 +141,8 @@ const changeZone = (newZone) => {
 
   previousZone = currentZone;
   currentZone = newZone;
+
+  toggleTitle(newZone);
 
   map = document.querySelector(".active");
   pokeballsActive = document.querySelector(".active>.pokeballs");
@@ -79,6 +169,7 @@ pokeballsActive.forEach((element) => {
 });
 
 const printFunFact = (name) => {
+  title.classList.toggle("activateTitle");
   isFunFactON = !isFunFactON;
   document.querySelector(`.${currentZone}`).classList.toggle("active");
   const funfact = document.querySelector("section.funfact");
@@ -86,19 +177,6 @@ const printFunFact = (name) => {
   funfact.classList.toggle(name);
   funfact.classList.toggle("active");
 };
-
-// create 2 data_set
-const data1 = [
-  { group: "A", value: 4 },
-  { group: "B", value: 16 },
-  { group: "C", value: 8 },
-];
-
-const data2 = [
-  { group: "A", value: 7 },
-  { group: "B", value: 1 },
-  { group: "C", value: 20 },
-];
 
 // set the dimensions and margins of the graph
 const margin = { top: 30, right: 30, bottom: 70, left: 60 },
@@ -123,16 +201,22 @@ var y = d3.scaleLinear().range([height, 0]);
 var yAxis = svg.append("g").attr("class", "myYaxis");
 
 const printStats = () => {
+  title.classList.toggle("activateTitle");
+  document.querySelector("#titreStat").innerHTML = getZone(currentZone);
+
   isStatsON = !isStatsON;
   document.querySelector(`.${currentZone}`).classList.toggle("active");
 
   const stats = document.querySelector("section.stats");
 
   stats.classList.toggle("active");
-  // A function that create / update the plot for a given variable:
 
-  // Initialize the plot with the first dataset
-  update(data1);
+  btnStats1.classList.remove("stats1-active");
+  btnStats1.classList.add("stats1-active");
+  btnStats2.classList.remove("stats2-active");
+
+  createGraph1();
+  cleanCountTypes();
 };
 
 const moveArray = (move) => {
@@ -148,6 +232,14 @@ const moveArray = (move) => {
 
 const getLocation = (location) => {
   return Location[location];
+};
+
+const getZone = (zone) => {
+  return Zones[zone];
+};
+
+const getType = (type) => {
+  return Types[type];
 };
 
 const formatPokemonName = (name) => {
@@ -168,8 +260,6 @@ const changeType = (pokemon) => {
 };
 
 const printPokemon = (pokemon) => {
-  console.log(pokemon);
-
   changeType(pokemon);
 
   pokemonImage.className = "";
@@ -179,13 +269,25 @@ const printPokemon = (pokemon) => {
   );
   pokemonName.innerHTML = formatPokemonName(pokemon.name);
   pokemonLvl.innerHTML = pokemon.lvl;
-  pokemonRate.innerHTML = pokemon.rate + "%";
+
+  if (
+    pokemon.rate.includes("One") ||
+    pokemon.rate.includes("C") ||
+    pokemon.rate.includes("Two")
+  )
+    pokemonRate.innerHTML = pokemon.rate;
+  else pokemonRate.innerHTML = pokemon.rate + "%";
+
   pokemonPosition.innerHTML = getLocation(listCurrentPokemon.location);
+
+  if (pokemonPosition.innerHTML === "Safari")
+    pokemonPagination.style.left = "295px";
   pokemonPagination.innerHTML =
     currentPokemonKey + 1 + "/" + listCurrentPokemon.pokemon.length;
 };
 
 const togglePokedex = (zone) => {
+  title.classList.toggle("activateTitle");
   isPokedexON = !isPokedexON;
   document.querySelector(`.${zone}`).classList.toggle("active");
   pokedex.classList.toggle("active");
@@ -237,12 +339,11 @@ const moveCamera = (value) => {
       break;
 
     case "btn-funfact":
-      printFunFact("funfact-" + currentZone);
+      if (!isPokedexON && !isStatsON) printFunFact("funfact-" + currentZone);
       break;
 
     case "btn-stats":
-      test();
-      printStats();
+      if (!isPokedexON && !isFunFactON) printStats();
       break;
 
     default:
@@ -276,31 +377,87 @@ pokedex.addEventListener("click", (e) => {
   }
 });
 
-console.log(document.querySelector(".stats"));
+//Clique sur les boutons dans les stats
 document.querySelector("section.stats").addEventListener("click", (e) => {
-  console.log(e.target.id);
-
+  cleanCountTypes();
   if (e.target.id === "btn-stats-1") {
-    console.log(data1);
-    update(data1);
-  } else {
-    let data3 = [];
-    let listPokemon = dataJson[currentZone];
-
-    Object.entries(listPokemon).forEach((entry) => {
-      const [key, value] = entry;
-      if (key !== "height" && key !== "width") {
-        data3.push({
-          group: getLocation(key),
-          value: Object.keys(value.pokemon).length,
-        });
-        console.log(Object.keys(value.pokemon).length);
-      }
-    });
-    console.log(data3);
-    update(data3);
+    if (!btnStats1.classList.contains("stats1-active")) {
+      btnStats1.classList.toggle("stats1-active");
+      btnStats2.classList.toggle("stats2-active");
+      createGraph1();
+    }
+  } else if (e.target.id === "btn-stats-2") {
+    if (!btnStats2.classList.contains("stats2-active")) {
+      btnStats1.classList.toggle("stats1-active");
+      btnStats2.classList.toggle("stats2-active");
+      createGraph2();
+    }
   }
 });
+
+const createGraph1 = () => {
+  let listPokemon = dataJson[currentZone];
+
+  let data = [];
+
+  Object.entries(listPokemon).forEach((entry) => {
+    const [key, value] = entry;
+    if (key !== "height" && key !== "width") {
+      parsePokemon(value.pokemon);
+    }
+  });
+
+  Object.entries(countTypes).forEach((type) => {
+    const [key, value] = type;
+    console.log(key, value);
+    if (value > 0) {
+      data.push({
+        group: getType(key),
+        value: value,
+      });
+    }
+  });
+
+  update(data);
+};
+
+const createGraph2 = () => {
+  let listPokemon = dataJson[currentZone];
+  let data = [];
+
+  Object.entries(listPokemon).forEach((entry) => {
+    const [key, value] = entry;
+    if (key !== "height" && key !== "width") {
+      data.push({
+        group: getLocation(key),
+        value: Object.keys(value.pokemon).length,
+      });
+    }
+  });
+
+  update(data);
+};
+
+const parsePokemon = (listPokemon) => {
+  listPokemon?.forEach((pokemon) => {
+    parsePokemonTypes(pokemon.type);
+  });
+};
+
+const parsePokemonTypes = (types) => {
+  if (Array.isArray(types)) {
+    types?.forEach((type) => {
+      countTypes[type]++;
+    });
+  } else countTypes[types]++;
+};
+
+const cleanCountTypes = () => {
+  Object.entries(countTypes).forEach((type) => {
+    const [key, value] = type;
+    countTypes[key] = 0;
+  });
+};
 
 const update = (data) => {
   // Update the X axis

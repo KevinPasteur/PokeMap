@@ -27,6 +27,8 @@
     "parcel": "^2.8.3"
   },
   "devDependencies": {
-    "buffer": "^5.7.1"
+    "buffer": "^5.7.1",
+    "domain-browser": "^3.5.0",
+    "events": "^3.3.0"
   }
 }

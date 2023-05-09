@@ -99,9 +99,7 @@
             ]
         },
         "height" : "320px",
-        "width" : "384px",
-        "positionY": "373px",
-        "positionX": "80px"
+        "width" : "384px"
     },
     "route1" : {
         "grass" : {
@@ -123,9 +121,7 @@
             
         },
         "height" : "640px",
-        "width" : "384px",
-        "positionY": "330px",
-        "positionX": "80px"
+        "width" : "384px"
 
     },
     "viridianCity" : {
@@ -200,9 +196,7 @@
             ]
         },
         "height" : "582px",
-        "width" : "652px",
-        "positionY": "287px",
-        "positionX": "80px"
+        "width" : "652px"
     },
     "route22" : {
         "grass" : {
@@ -1740,7 +1734,7 @@
                     "name" : "Ortide",
                     "lvl" : "28-30",
                     "rate" : "5",
-                    "type" : ["herbe","poison"]                    
+                    "type" : ["grass","poison"]                    
                 }
             ]
         },
@@ -1813,7 +1807,7 @@
                 {
                     "name" : "Ronflex",
                     "lvl" : "30",
-                    "rate" : "one",
+                    "rate" : "One",
                     "type" : "normal"                  
                 }
             ]
@@ -1852,7 +1846,7 @@
                     "name" : "Ortide",
                     "lvl" : "28-30",
                     "rate" : "5",
-                    "type" : ["herbe","poison"]                    
+                    "type" : ["grass","poison"]                    
                 },
                 {
                     "name" : "Metamorph",
@@ -1960,7 +1954,7 @@
                     "name" : "Ortide",
                     "lvl" : "30",
                     "rate" : "5",
-                    "type" : ["herbe","poison"]                    
+                    "type" : ["grass","poison"]                    
                 },
                 {
                     "name" : "Metamorph",
@@ -2004,7 +1998,7 @@
                     "name" : "Ortide",
                     "lvl" : "28-30",
                     "rate" : "5",
-                    "type" : ["herbe","poison"]                    
+                    "type" : ["grass","poison"]                    
                 },
                 {
                     "name" : "Metamorph",
@@ -2051,7 +2045,7 @@
                 {
                     "name" : "Ronflex",
                     "lvl" : "30",
-                    "rate" : "one",
+                    "rate" : "One",
                     "type" : "normal"                   
                 }
             ]

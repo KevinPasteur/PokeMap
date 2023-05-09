@@ -73,6 +73,23 @@ body, html {
     background: url("/img/pokeball-hover.svg") no-repeat no-repeat;
 }
 
+.titre {
+    background-image: url("/img/titre.png");
+    z-index: 1;
+    /* here's the magic */
+    position: absolute;
+    height: 48px;
+    width: 272px;
+    color: #000;
+    text-align: center;
+}
+
+.activateTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
 .tooltip {
     position: absolute;
     z-index: 100;
@@ -109,4 +126,20 @@ body, html {
 
 .tooltip:hover:before {
     display: block;
+}
+
+.graph {
+    position: absolute;
+    top: 92px;
+    left: 300px
+}
+
+.titreStat {
+    position: absolute;
+    top: 42px;
+    font-size: 2em;
+    left: 25px;
+    text-align: center;
+    width: 280px;
+    color: #1c1c1c
 }

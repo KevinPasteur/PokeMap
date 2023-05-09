@@ -86,10 +86,42 @@ section.funfact-route22 {
     background-image: url("/img/funfacts/route22.png");
 }
 
+section.funfact-route23 {
+    background-image: url("/img/funfacts/route23.png");
+}
+
 section.funfact-route24 {
     background-image: url("/img/funfacts/route24.png");
 }
 
 section.funfact-route25 {
     background-image: url("/img/funfacts/route25.png");
+}
+
+section.funfact-celadonCity {
+    background-image: url("/img/funfacts/celadonCity.png");
+}
+
+section.funfact-cinnabarIsland {
+    background-image: url("/img/funfacts/cinnabarIsland.png");
+}
+
+section.funfact-fuchsiaCity {
+    background-image: url("/img/funfacts/fuchsiaCity.png");
+}
+
+section.funfact-palletTown {
+    background-image: url("/img/funfacts/palletTown.png");
+}
+
+section.funfact-vermilionCity {
+    background-image: url("/img/funfacts/vermilionCity.png");
+}
+
+section.funfact-viridianCity {
+    background-image: url("/img/funfacts/viridianCity.png");
+}
+
+section.funfact-viridianForest {
+    background-image: url("/img/funfacts/viridianForest.png");
 }
