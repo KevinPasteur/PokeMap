@@ -1,7 +1,6 @@
 import * as d3 from "./node_modules/d3/dist/d3.js";
 import dataJson from "./data/data.json";
 
-console.log(dataJson);
 let map = document.querySelector(".active");
 const buttonParent = document.querySelector("#buttonParent");
 
