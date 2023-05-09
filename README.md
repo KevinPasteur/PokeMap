@@ -1,7 +1,7 @@
 # PokeMap
 
 ## Contexte
-Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web : https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/
+Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web : https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Table_of_Contents
 
 Pour compléter nos données, nous utiliserons également ce site : https://www.serebii.net/pokearth/kanto/index.shtml
 
