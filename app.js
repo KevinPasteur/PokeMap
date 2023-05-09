@@ -1,9 +1,7 @@
-import * as d3 from "d3";
-import { create } from "domain";
-import fs from "fs";
+import * as d3 from "./node_modules/d3/dist/d3.js";
+import dataJson from "./data/data.json";
 
-const dataJson = JSON.parse(fs.readFileSync("./data/data.json"));
-
+console.log(dataJson);
 let map = document.querySelector(".active");
 const buttonParent = document.querySelector("#buttonParent");
 
@@ -308,7 +306,6 @@ const togglePower = () => {
 };
 
 const moveCamera = (value) => {
-  console.log(value);
   let val = 0;
   switch (value) {
     case "btn-left":
@@ -352,14 +349,12 @@ const moveCamera = (value) => {
 };
 
 document.addEventListener("keydown", (e) => {
-  console.log(isPowerON);
   if (isPowerON) {
     if (currentZone !== "map") moveCamera(e.keyCode);
   }
 });
 
 buttonParent.addEventListener("click", (e) => {
-  console.log(isPowerON);
   if (isPowerON) {
     if (currentZone !== "map") moveCamera(e.target.id);
   }
@@ -409,7 +404,6 @@ const createGraph1 = () => {
 
   Object.entries(countTypes).forEach((type) => {
     const [key, value] = type;
-    console.log(key, value);
     if (value > 0) {
       data.push({
         group: getType(key),
