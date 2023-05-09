@@ -2,7 +2,7 @@
   "name": "pokemap",
   "version": "1.0.0",
   "description": "Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web :",
-  "main": "index.js",
+  "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "type": "module",
   "scripts": {
