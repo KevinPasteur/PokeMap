@@ -7,7 +7,7 @@
 
 .btn.up {
     background: url("/img/boutons/boutonHautBas.svg") no-repeat no-repeat;
-    top: 254px;
+    top: 313px;
     left: 267px;
 }
 
@@ -17,7 +17,7 @@
 
 .btn.down {
     background: url("/img/boutons/boutonHautBas.svg") no-repeat no-repeat;
-    top: 410px;
+    top: 469px;
     left: 267px;
 }
 
@@ -27,8 +27,8 @@
 
 .btn.right {
     background: url("/img/boutons/boutonGaucheDroit.svg") no-repeat no-repeat;
-    top: 335px;
-    left: 342px;
+    top: 394px;
+    left: 341px;
 }
 
 .btn.right:hover {
@@ -37,8 +37,8 @@
 
 .btn.left {
     background: url("/img/boutons/boutonGaucheDroit.svg") no-repeat no-repeat;
-    top: 335px;
-    left: 185px;
+    top: 394px;
+    left: 186px;
 }
 
 .btn.left:hover {
@@ -48,7 +48,7 @@
 .btn.b {
     height: 110px;
     width: 110px;
-    top: 355px;
+    top: 414px;
     left: 1498px;
 }
 
@@ -58,7 +58,7 @@
 
 .btn.funfact {
     background: url("/img/boutons/boutonStatsFunfact.svg");
-    top: 671px;
+    top: 730px;
     left: 366px;
     background-repeat: no-repeat;
     height: 50px;
@@ -71,7 +71,7 @@
 
 .btn.stats {
     background: url("/img/boutons/boutonStatsFunfact.svg");
-    top: 588px;
+    top: 647px;
     left: 366px;
     background-repeat: no-repeat;
     height: 50px;
@@ -90,6 +90,10 @@
     width: 58px;
 }
 
+.btn.pokedex.right:hover {
+    background: url("/img/pokedex/BoutonDroit-hover.svg");
+}
+
 .btn.pokedex.left {
     background: url("/img/pokedex/BoutonGauche.svg");
     top: 369px;
@@ -98,9 +102,13 @@
     width: 59px;
 }
 
+.btn.pokedex.left:hover {
+    background: url("/img/pokedex/BoutonGauche-hover.svg");
+}
+
 .btn.power {
     background: url("/img/boutons/boutonPower.svg") no-repeat no-repeat;
-    top: 667px;
+    top: 726px;
     left: 1743px;
     height: 55px;
     width: 55px;
@@ -112,7 +120,7 @@
 
 .led-on {
     background: url("/img/boutons/powerColorVert.svg") no-repeat no-repeat;
-    top: 174px;
+    top: 234px;
     left: 1502px;
     height: 29px;
     width: 29px;
@@ -120,7 +128,7 @@
 
 .led-off {
     background: url("/img/boutons/powerColorRouge.svg") no-repeat no-repeat;
-    top: 174px;
+    top: 234px;
     left: 1502px;
     height: 29px;
     width: 29px;

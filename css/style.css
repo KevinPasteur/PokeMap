@@ -29,12 +29,16 @@ body, html {
     font-size: 1.2em;
 }
 
+.screenSizeInfo {
+    font-size: 2em;
+}
+
 .camera {
     width: 850px;
     height: 600px;
     overflow: hidden;
-    top: 152px;
-    left: 523px;
+    top: 205px;
+    left: 531px;
     background: #61ddf7;
     position: relative;
 }
@@ -76,12 +80,12 @@ body, html {
 .titre {
     background-image: url("/img/titre.png");
     z-index: 1;
-    /* here's the magic */
     position: absolute;
     height: 48px;
     width: 272px;
     color: #000;
     text-align: center;
+    top: -1px;
 }
 
 .activateTitle {
@@ -93,26 +97,19 @@ body, html {
 .tooltip {
     position: absolute;
     z-index: 100;
-    /* making the .tooltip span a container for the tooltip text */
     border-bottom: 1px dashed #000;
-    /* little indicater to indicate it's hoverable */
 }
 
 .tooltip:before {
     content: attr(data-text);
-    /* here's the magic */
     position: absolute;
 
-    /* vertically center */
     top: 50%;
     transform: translateY(-50%);
 
-    /* move to right */
     left: 100%;
     margin-left: 15px;
-    /* and add a small left margin */
 
-    /* basic styles */
     width: 100px;
     padding: 10px;
     border-radius: 10px;
@@ -121,7 +118,6 @@ body, html {
     text-align: center;
 
     display: none;
-    /* hide by default */
 }
 
 .tooltip:hover:before {
