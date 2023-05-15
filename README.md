@@ -1,5 +1,28 @@
 # PokeMap
 
+## Live
+
+Profiter de l'expérience PokeMap ici : https://pokemap.onrender.com/
+
+## Comment l'utiliser
+
+### Map Kanto
+- Sélectionner la zone dans laquelle vous souhaitez voir les pokemon. (Les zones disponibles sont affichées avec le logo "vol")
+
+### Commandes
+- Les boutons utilisables sont ceux changeant de couleur (gris) au survol
+- Le bouton A n'est pas encore disponible
+
+- Le bouton B permet de revenir en arrière (Pokedex -> Zone -> Map Kanto)
+
+### Pokedex
+- Changer de pokemon en utilisant les flèches (gauche et droite) au milieu du pokedex
+- Pour revenir en arrière, utilisez le bouton B
+
+### Stats et Funfact
+- Pour revenir en arrière, cliquez sur le bouton que vous avez utilisez
+
+
 ## Contexte
 Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web : https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Table_of_Contents
 
