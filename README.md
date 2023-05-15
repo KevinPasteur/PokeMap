@@ -10,9 +10,9 @@ Profiter de l'expérience PokeMap ici : https://pokemap.onrender.com/
 - Sélectionner la zone dans laquelle vous souhaitez voir les pokemon. (Les zones disponibles sont affichées avec le logo "vol")
 
 ### Commandes
+- Pour vous déplacer dans les zones, vous pouvez utiliser les flèches de votre clavier
 - Les boutons utilisables sont ceux changeant de couleur (gris) au survol
 - Le bouton A n'est pas encore disponible
-
 - Le bouton B permet de revenir en arrière (Pokedex -> Zone -> Map Kanto)
 
 ### Pokedex
@@ -22,6 +22,9 @@ Profiter de l'expérience PokeMap ici : https://pokemap.onrender.com/
 ### Stats et Funfact
 - Pour revenir en arrière, cliquez sur le bouton que vous avez utilisez
 
+
+## Bugs connus
+- Il est possible de sortir des zones et de se retrouver sur un fond bleu
 
 ## Contexte
 Les données sur les Pokemon avec leurs noms, leurs niveaux, ainsi que leur taux d'apparition proviennent de ce site web : https://strategywiki.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen/Table_of_Contents
